@@ -1,0 +1,176 @@
+/*
+LESS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: @icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+@icon-home: x y offset_x offset_y width height total_width total_height image_path;
+*/
+@arrow-right-x: 660px;
+@arrow-right-y: 173px;
+@arrow-right-offset-x: -660px;
+@arrow-right-offset-y: -173px;
+@arrow-right-width: 12px;
+@arrow-right-height: 18px;
+@arrow-right-total-width: 681px;
+@arrow-right-total-height: 369px;
+@arrow-right-image: '../images/sprite.png';
+@arrow-right: 660px 173px -660px -173px 12px 18px 681px 369px '../images/sprite.png';
+@arrows-x: 467px;
+@arrows-y: 0px;
+@arrows-offset-x: -467px;
+@arrows-offset-y: 0px;
+@arrows-width: 214px;
+@arrows-height: 171px;
+@arrows-total-width: 681px;
+@arrows-total-height: 369px;
+@arrows-image: '../images/sprite.png';
+@arrows: 467px 0px -467px 0px 214px 171px 681px 369px '../images/sprite.png';
+@diagram-x: 0px;
+@diagram-y: 0px;
+@diagram-offset-x: 0px;
+@diagram-offset-y: 0px;
+@diagram-width: 214px;
+@diagram-height: 317px;
+@diagram-total-width: 681px;
+@diagram-total-height: 369px;
+@diagram-image: '../images/sprite.png';
+@diagram: 0px 0px 0px 0px 214px 317px 681px 369px '../images/sprite.png';
+@facebook-large-x: 549px;
+@facebook-large-y: 173px;
+@facebook-large-offset-x: -549px;
+@facebook-large-offset-y: -173px;
+@facebook-large-width: 77px;
+@facebook-large-height: 77px;
+@facebook-large-total-width: 681px;
+@facebook-large-total-height: 369px;
+@facebook-large-image: '../images/sprite.png';
+@facebook-large: 549px 173px -549px -173px 77px 77px 681px 369px '../images/sprite.png';
+@facebook-small-x: 467px;
+@facebook-small-y: 254px;
+@facebook-small-offset-x: -467px;
+@facebook-small-offset-y: -254px;
+@facebook-small-width: 37px;
+@facebook-small-height: 37px;
+@facebook-small-total-width: 681px;
+@facebook-small-total-height: 369px;
+@facebook-small-image: '../images/sprite.png';
+@facebook-small: 467px 254px -467px -254px 37px 37px 681px 369px '../images/sprite.png';
+@instagram-small-x: 506px;
+@instagram-small-y: 254px;
+@instagram-small-offset-x: -506px;
+@instagram-small-offset-y: -254px;
+@instagram-small-width: 37px;
+@instagram-small-height: 37px;
+@instagram-small-total-width: 681px;
+@instagram-small-total-height: 369px;
+@instagram-small-image: '../images/sprite.png';
+@instagram-small: 506px 254px -506px -254px 37px 37px 681px 369px '../images/sprite.png';
+@logo-x: 216px;
+@logo-y: 0px;
+@logo-offset-x: -216px;
+@logo-offset-y: 0px;
+@logo-width: 249px;
+@logo-height: 176px;
+@logo-total-width: 681px;
+@logo-total-height: 369px;
+@logo-image: '../images/sprite.png';
+@logo: 216px 0px -216px 0px 249px 176px 681px 369px '../images/sprite.png';
+@map-icon-x: 628px;
+@map-icon-y: 173px;
+@map-icon-offset-x: -628px;
+@map-icon-offset-y: -173px;
+@map-icon-width: 30px;
+@map-icon-height: 48px;
+@map-icon-total-width: 681px;
+@map-icon-total-height: 369px;
+@map-icon-image: '../images/sprite.png';
+@map-icon: 628px 173px -628px -173px 30px 48px 681px 369px '../images/sprite.png';
+@play-large-x: 216px;
+@play-large-y: 178px;
+@play-large-offset-x: -216px;
+@play-large-offset-y: -178px;
+@play-large-width: 77px;
+@play-large-height: 77px;
+@play-large-total-width: 681px;
+@play-large-total-height: 369px;
+@play-large-image: '../images/sprite.png';
+@play-large: 216px 178px -216px -178px 77px 77px 681px 369px '../images/sprite.png';
+@take-action-x: 0px;
+@take-action-y: 319px;
+@take-action-offset-x: 0px;
+@take-action-offset-y: -319px;
+@take-action-width: 266px;
+@take-action-height: 50px;
+@take-action-total-width: 681px;
+@take-action-total-height: 369px;
+@take-action-image: '../images/sprite.png';
+@take-action: 0px 319px 0px -319px 266px 50px 681px 369px '../images/sprite.png';
+@twitter-large-x: 295px;
+@twitter-large-y: 178px;
+@twitter-large-offset-x: -295px;
+@twitter-large-offset-y: -178px;
+@twitter-large-width: 87px;
+@twitter-large-height: 70px;
+@twitter-large-total-width: 681px;
+@twitter-large-total-height: 369px;
+@twitter-large-image: '../images/sprite.png';
+@twitter-large: 295px 178px -295px -178px 87px 70px 681px 369px '../images/sprite.png';
+@twitter-small-x: 545px;
+@twitter-small-y: 254px;
+@twitter-small-offset-x: -545px;
+@twitter-small-offset-y: -254px;
+@twitter-small-width: 37px;
+@twitter-small-height: 37px;
+@twitter-small-total-width: 681px;
+@twitter-small-total-height: 369px;
+@twitter-small-image: '../images/sprite.png';
+@twitter-small: 545px 254px -545px -254px 37px 37px 681px 369px '../images/sprite.png';
+@user-large-x: 467px;
+@user-large-y: 173px;
+@user-large-offset-x: -467px;
+@user-large-offset-y: -173px;
+@user-large-width: 80px;
+@user-large-height: 79px;
+@user-large-total-width: 681px;
+@user-large-total-height: 369px;
+@user-large-image: '../images/sprite.png';
+@user-large: 467px 173px -467px -173px 80px 79px 681px 369px '../images/sprite.png';
+
+/*
+The provided classes are intended to be used with the array-like variables
+
+.icon-home {
+  .sprite-width(@icon-home);
+}
+.icon-email {
+  .sprite(@icon-email);
+}
+*/
+.sprite-width(@sprite) {
+  width: ~`"@{sprite}".split(', ')[4]`;
+}
+
+.sprite-height(@sprite) {
+  height: ~`"@{sprite}".split(', ')[5]`;
+}
+
+.sprite-position(@sprite) {
+  @sprite-offset-x: ~`"@{sprite}".split(', ')[2]`;
+  @sprite-offset-y: ~`"@{sprite}".split(', ')[3]`;
+  background-position: @sprite-offset-x  @sprite-offset-y;
+}
+
+.sprite-image(@sprite) {
+  @sprite-image: ~`"@{sprite}".split(', ')[8].slice(1, -2)`;
+  background-image: url(@sprite-image);
+}
+
+.sprite(@sprite) {
+  .sprite-image(@sprite);
+  .sprite-position(@sprite);
+  .sprite-width(@sprite);
+  .sprite-height(@sprite);
+}

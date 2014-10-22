@@ -1,0 +1,52 @@
+.hero {
+	.clearfix();
+	color: white;
+	padding: 62px 49px;
+
+	.left {
+		text-transform: uppercase;
+
+		h2 {
+			margin: 0 0 22px 0;
+			font-size: 21px;
+			font-weight: 100;
+			letter-spacing: 1px;
+		}
+
+		.count {
+			font-size: 233px;
+			line-height: 0.8;
+			font-weight: 700;
+			margin: 0 0 16px -14px;
+		}
+	}
+
+	.right {
+		margin-top: 30px;
+		font-size: 20px;
+		font-weight: 100;
+
+		a {
+			display: block;
+			text-indent: -10000px;
+			.sprite(@take-action);
+			margin-top: 31px;
+		}
+	}
+}
+
+@media (min-width: @screen-sm-min) {
+
+}
+
+@media (min-width: @screen-md-min) {
+	.hero {
+		.right {
+			margin-top: 47px;
+		}
+	}
+}
+
+@media (min-width: @screen-lg-min) {
+
+}

@@ -1,0 +1,22 @@
+{
+  "name": "wpcd",
+  "version": "0.0.0",
+  "homepage": "https://github.com/wpcd/wpcd.github.io",
+  "authors": [
+    "Blake Elshire <blake.elshire@gmail.com>"
+  ],
+  "description": "World Pancreatic Cancer Day Single Serving Website",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0"
+  }
+}
