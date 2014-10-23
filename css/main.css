@@ -6885,6 +6885,7 @@ header .container .social-nav ul li .instagram {
 }
 .section .container .content .supporters-list li a .icon.arrow-right {
   margin-top: 5px;
+  margin-right: 10px;
   background-image: url(../images/sprite.png);
   background-position: 0px -13px;
   width: 11px;
@@ -6924,7 +6925,7 @@ header .container .social-nav ul li .instagram {
   list-style-type: none;
   font-size: 16px;
   font-weight: 400;
-  padding-left: 19px;
+  padding-left: 20px;
 }
 .section .container .content .supporters-list li ul li {
   border-bottom: none;
@@ -6972,7 +6973,7 @@ header .container .social-nav ul li .instagram {
 }
 @media (min-width: 992px) {
   .section.spread-the-word .container .content .social-share div h2 {
-    width: 306px;
+    width: 308px;
   }
   .section .container .content .supporters-list#supporters-col2 {
     border-top: 1px solid #ccc;
