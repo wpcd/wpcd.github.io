@@ -6221,20 +6221,20 @@ header .container {
 header .container .icon-logo {
   display: block;
   background-image: url(../images/sprite.png);
-  background-position: -426px 0px;
+  background-position: 0px -852px;
   width: 249px;
   height: 176px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   header .container .icon-logo {
     background-image: url(../images/sprite-2x.png);
-    background-position: -849px 0px;
+    background-position: 0px -1706px;
     width: 498px;
     height: 353px;
-    background-position: -426px 0px;
+    background-position: 0px -852px;
     height: 176px;
     width: 249px;
-    background-size: 675px 490px;
+    background-size: 266px 1556px;
   }
 }
 header .container .primary-nav ul {
@@ -6272,56 +6272,56 @@ header .container .social-nav ul li a {
 }
 header .container .social-nav ul li .facebook {
   background-image: url(../images/sprite.png);
-  background-position: -458px -259px;
+  background-position: 0px -188px;
   width: 37px;
   height: 37px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   header .container .social-nav ul li .facebook {
     background-image: url(../images/sprite-2x.png);
-    background-position: -914px -518px;
+    background-position: 0px -378px;
     width: 74px;
     height: 74px;
-    background-position: -458px -259px;
+    background-position: 0px -188px;
     height: 37px;
     width: 37px;
-    background-size: 675px 490px;
+    background-size: 266px 1556px;
   }
 }
 header .container .social-nav ul li .twitter {
   background-image: url(../images/sprite.png);
-  background-position: -536px -259px;
+  background-position: 0px -149px;
   width: 37px;
   height: 37px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   header .container .social-nav ul li .twitter {
     background-image: url(../images/sprite-2x.png);
-    background-position: -1070px -518px;
+    background-position: 0px -300px;
     width: 74px;
     height: 74px;
-    background-position: -536px -259px;
+    background-position: 0px -149px;
     height: 37px;
     width: 37px;
-    background-size: 675px 490px;
+    background-size: 266px 1556px;
   }
 }
 header .container .social-nav ul li .instagram {
   background-image: url(../images/sprite.png);
-  background-position: -497px -259px;
+  background-position: 0px -227px;
   width: 37px;
   height: 37px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   header .container .social-nav ul li .instagram {
     background-image: url(../images/sprite-2x.png);
-    background-position: -992px -518px;
+    background-position: 0px -456px;
     width: 74px;
     height: 74px;
-    background-position: -497px -259px;
+    background-position: 0px -227px;
     height: 37px;
     width: 37px;
-    background-size: 675px 490px;
+    background-size: 266px 1556px;
   }
 }
 @media (min-width: 768px) {
@@ -6387,7 +6387,7 @@ header .container .social-nav ul li .instagram {
   display: block;
   text-indent: -10000px;
   background-image: url(../images/sprite.png);
-  background-position: -216px -319px;
+  background-position: 0px -316px;
   width: 266px;
   height: 50px;
   margin-top: 31px;
@@ -6395,13 +6395,13 @@ header .container .social-nav ul li .instagram {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   .hero .right a {
     background-image: url(../images/sprite-2x.png);
-    background-position: -432px -638px;
+    background-position: 0px -635px;
     width: 532px;
     height: 100px;
-    background-position: -216px -319px;
+    background-position: 0px -316px;
     height: 50px;
     width: 266px;
-    background-size: 675px 490px;
+    background-size: 266px 1556px;
   }
 }
 @media (min-width: 768px) {
@@ -6452,39 +6452,40 @@ header .container .social-nav ul li .instagram {
 }
 .section .thing .container .content .icon.circle {
   background-image: url(../images/sprite.png);
-  background-position: -216px 0px;
+  background-position: 0px -1030px;
   width: 208px;
   height: 207px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   .section .thing .container .content .icon.circle {
     background-image: url(../images/sprite-2x.png);
-    background-position: -432px 0px;
+    background-position: 0px -2063px;
     width: 413px;
     height: 411px;
-    background-position: -216px 0px;
+    background-position: 0px -1030px;
     height: 207px;
     width: 208px;
-    background-size: 675px 490px;
+    background-size: 266px 1556px;
   }
 }
 .section .thing .container .content .icon.diagram {
   margin-top: 0px;
   margin-bottom: 0px;
   background-image: url(../images/sprite.png);
-  background-position: 0px 0px;
+  background-position: 0px -1239px;
   width: 214px;
   height: 317px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   .section .thing .container .content .icon.diagram {
     background-image: url(../images/sprite-2x.png);
+    background-position: 0px -2478px;
     width: 428px;
     height: 634px;
-    background-position: 0px 0px;
+    background-position: 0px -1239px;
     height: 317px;
     width: 214px;
-    background-size: 675px 490px;
+    background-size: 266px 1556px;
   }
 }
 .section .thing .container .content .icon.text {
@@ -6500,20 +6501,20 @@ header .container .social-nav ul li .instagram {
 }
 .section .thing .container .content .icon.arrows {
   background-image: url(../images/sprite.png);
-  background-position: 0px -319px;
+  background-position: 0px -679px;
   width: 214px;
   height: 171px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   .section .thing .container .content .icon.arrows {
     background-image: url(../images/sprite-2x.png);
-    background-position: 0px -638px;
+    background-position: 0px -1361px;
     width: 428px;
     height: 341px;
-    background-position: 0px -319px;
+    background-position: 0px -679px;
     height: 171px;
     width: 214px;
-    background-size: 675px 490px;
+    background-size: 266px 1556px;
   }
 }
 .section .container .content {
@@ -6567,56 +6568,56 @@ header .container .social-nav ul li .instagram {
 }
 .section .container .content .share-this li .facebook {
   background-image: url(../images/sprite.png);
-  background-position: -609px -259px;
+  background-position: 0px -115px;
   width: 32px;
   height: 32px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   .section .container .content .share-this li .facebook {
     background-image: url(../images/sprite-2x.png);
-    background-position: -1216px -518px;
+    background-position: 0px -232px;
     width: 64px;
     height: 64px;
-    background-position: -609px -259px;
+    background-position: 0px -115px;
     height: 32px;
     width: 32px;
-    background-size: 675px 490px;
+    background-size: 266px 1556px;
   }
 }
 .section .container .content .share-this li .twitter {
   background-image: url(../images/sprite.png);
-  background-position: -643px -259px;
+  background-position: 0px -47px;
   width: 32px;
   height: 32px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   .section .container .content .share-this li .twitter {
     background-image: url(../images/sprite-2x.png);
-    background-position: -609px -415px;
+    background-position: 0px -96px;
     width: 64px;
     height: 64px;
-    background-position: -643px -259px;
+    background-position: 0px -47px;
     height: 32px;
     width: 32px;
-    background-size: 675px 490px;
+    background-size: 266px 1556px;
   }
 }
 .section .container .content .share-this li .instagram {
   background-image: url(../images/sprite.png);
-  background-position: -575px -259px;
+  background-position: 0px -81px;
   width: 32px;
   height: 32px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   .section .container .content .share-this li .instagram {
     background-image: url(../images/sprite-2x.png);
-    background-position: -1148px -518px;
+    background-position: 0px -164px;
     width: 64px;
     height: 64px;
-    background-position: -575px -259px;
+    background-position: 0px -81px;
     height: 32px;
     width: 32px;
-    background-size: 675px 490px;
+    background-size: 266px 1556px;
   }
 }
 @media (min-width: 768px) {
