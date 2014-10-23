@@ -1063,7 +1063,7 @@ h6 .small,
 }
 h1,
 .h1 {
-  font-size: 36px;
+  font-size: 65px;
 }
 h2,
 .h2 {
@@ -6191,84 +6191,86 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff993399', endColorstr='#ff683090', GradientType=1);
 }
 header {
-  position: relative;
   background-color: white;
   margin-top: 10px;
   padding: 20px 15px 30px;
 }
-header .icon-logo {
+header .container {
+  position: relative;
+}
+header .container .icon-logo {
   display: block;
   background-image: url(../images/sprite.png);
-  background-position: -216px 0px;
+  background-position: -426px 0px;
   width: 249px;
   height: 176px;
 }
-header .primary-nav ul {
+header .container .primary-nav ul {
   margin: 20px 0 0;
   padding: 0;
   list-style-type: none;
 }
-header .primary-nav ul li {
+header .container .primary-nav ul li {
   display: inline-block;
   margin-right: 10px;
 }
-header .primary-nav ul li a {
+header .container .primary-nav ul li a {
   color: #683090;
   font-size: 24px;
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-header .social-nav {
+header .container .social-nav {
   position: absolute;
   top: 25px;
   right: 5px;
 }
-header .social-nav ul {
+header .container .social-nav ul {
   maring: 0;
   padding: 0;
 }
-header .social-nav ul li {
+header .container .social-nav ul li {
   display: inline-block;
   margin-left: 12px;
 }
-header .social-nav ul li a {
+header .container .social-nav ul li a {
   display: block;
   text-indent: -10000px;
 }
-header .social-nav ul li .facebook {
+header .container .social-nav ul li .facebook {
   background-image: url(../images/sprite.png);
-  background-position: -467px -254px;
+  background-position: -458px -259px;
   width: 37px;
   height: 37px;
 }
-header .social-nav ul li .twitter {
+header .container .social-nav ul li .twitter {
   background-image: url(../images/sprite.png);
-  background-position: -545px -254px;
+  background-position: -536px -259px;
   width: 37px;
   height: 37px;
 }
-header .social-nav ul li .instagram {
+header .container .social-nav ul li .instagram {
   background-image: url(../images/sprite.png);
-  background-position: -506px -254px;
+  background-position: -497px -259px;
   width: 37px;
   height: 37px;
 }
 @media (min-width: 768px) {
-  header .social-nav {
+  header .container .social-nav {
     right: 27px;
   }
 }
 @media (min-width: 992px) {
-  header .primary-nav {
+  header .container .primary-nav {
     float: right;
     margin: -73px 10px 0 0;
   }
-  header .primary-nav ul {
+  header .container .primary-nav ul {
     margin: 0;
     padding: 0;
   }
-  header .primary-nav ul li {
+  header .container .primary-nav ul li {
     display: inline-block;
     margin: 0 0 0 21px;
   }
@@ -6303,7 +6305,7 @@ header .social-nav ul li .instagram {
   letter-spacing: 1px;
 }
 .hero .left .count {
-  font-size: 233px;
+  font-size: 170px;
   line-height: 0.8;
   font-weight: 700;
   margin: 0 0 16px -14px;
@@ -6317,36 +6319,149 @@ header .social-nav ul li .instagram {
   display: block;
   text-indent: -10000px;
   background-image: url(../images/sprite.png);
-  background-position: 0px -319px;
+  background-position: -216px -319px;
   width: 266px;
   height: 50px;
   margin-top: 31px;
+}
+@media (min-width: 768px) {
+  .hero .left .count {
+    font-size: 233px;
+  }
 }
 @media (min-width: 992px) {
   .hero .right {
     margin-top: 47px;
   }
 }
-.content {
-  padding: 40px 30px;
+.section {
   background-color: white;
 }
-.content:before,
-.content:after {
+.section.spread-the-word {
+  background-color: transparent;
+  color: white;
+}
+.section.spread-the-word .container .content h1 {
+  color: white;
+}
+.section.spread-the-word .container .content h1 strong {
+  color: white;
+}
+.section .thing {
+  border-bottom: 1px solid #ccc;
+}
+.section .thing.odd {
+  background-color: #f5f5f5;
+}
+.section .thing .container .content {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.section .thing .container .content .factoid {
+  margin: 58px 0;
+}
+.section .thing .container .content p {
+  font-size: 26px;
+}
+.section .thing .container .content .icon {
+  display: block;
+  margin: 38px auto;
+}
+.section .thing .container .content .icon.circle {
+  background-image: url(../images/sprite.png);
+  background-position: -216px 0px;
+  width: 208px;
+  height: 207px;
+}
+.section .thing .container .content .icon.diagram {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-image: url(../images/sprite.png);
+  background-position: 0px 0px;
+  width: 214px;
+  height: 317px;
+}
+.section .thing .container .content .icon.text {
+  width: 250px;
+  font-weight: 700;
+  font-size: 183px;
+  letter-spacing: -6px;
+  color: #993399;
+}
+.section .thing .container .content .icon.text small {
+  font-size: 90px;
+  margin-left: 7px;
+}
+.section .thing .container .content .icon.arrows {
+  background-image: url(../images/sprite.png);
+  background-position: 0px -319px;
+  width: 214px;
+  height: 171px;
+}
+.section .container .content {
+  padding: 40px 30px;
+}
+.section .container .content:before,
+.section .container .content:after {
   content: " ";
   display: table;
 }
-.content:after {
+.section .container .content:after {
   clear: both;
 }
-.content:before,
-.content:after {
+.section .container .content:before,
+.section .container .content:after {
   content: " ";
   display: table;
 }
-.content:after {
+.section .container .content:after {
   clear: both;
 }
-.content .section {
-  margin-bottom: 90px;
+.section .container .content h1 {
+  color: #993399;
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+.section .container .content h1 strong {
+  font-weight: 700;
+  color: #683090;
+}
+.section .container .content .share-this {
+  margin: 0;
+  padding: 0;
+}
+.section .container .content .share-this li {
+  display: inline-block;
+  line-height: 41px;
+  margin-right: 10px;
+}
+.section .container .content .share-this li .share {
+  color: #683090;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.section .container .content .share-this li a {
+  display: block;
+  text-indent: -10000px;
+}
+.section .container .content .share-this li .facebook {
+  background-image: url(../images/sprite.png);
+  background-position: -458px -259px;
+  width: 37px;
+  height: 37px;
+}
+.section .container .content .share-this li .twitter {
+  background-image: url(../images/sprite.png);
+  background-position: -536px -259px;
+  width: 37px;
+  height: 37px;
+}
+.section .container .content .share-this li .instagram {
+  background-image: url(../images/sprite.png);
+  background-position: -497px -259px;
+  width: 37px;
+  height: 37px;
 }
