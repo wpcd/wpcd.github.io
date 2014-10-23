@@ -1,0 +1,236 @@
+/*
+LESS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: @icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+@icon-home: x y offset_x offset_y width height total_width total_height image_path;
+*/
+@arrow-down-brand-color-2x-x: 1312px;
+@arrow-down-brand-color-2x-y: 518px;
+@arrow-down-brand-color-2x-offset-x: -1312px;
+@arrow-down-brand-color-2x-offset-y: -518px;
+@arrow-down-brand-color-2x-width: 28px;
+@arrow-down-brand-color-2x-height: 19px;
+@arrow-down-brand-color-2x-total-width: 1347px;
+@arrow-down-brand-color-2x-total-height: 979px;
+@arrow-down-brand-color-2x-image: '../images/sprite-2x.png';
+@arrow-down-brand-color-2x: 1312px 518px -1312px -518px 28px 19px 1347px 979px '../images/sprite-2x.png';
+@arrow-right-2x-x: 1284px;
+@arrow-right-2x-y: 518px;
+@arrow-right-2x-offset-x: -1284px;
+@arrow-right-2x-offset-y: -518px;
+@arrow-right-2x-width: 24px;
+@arrow-right-2x-height: 37px;
+@arrow-right-2x-total-width: 1347px;
+@arrow-right-2x-total-height: 979px;
+@arrow-right-2x-image: '../images/sprite-2x.png';
+@arrow-right-2x: 1284px 518px -1284px -518px 24px 37px 1347px 979px '../images/sprite-2x.png';
+@arrow-right-brand-color-2x-x: 1328px;
+@arrow-right-brand-color-2x-y: 357px;
+@arrow-right-brand-color-2x-offset-x: -1328px;
+@arrow-right-brand-color-2x-offset-y: -357px;
+@arrow-right-brand-color-2x-width: 19px;
+@arrow-right-brand-color-2x-height: 28px;
+@arrow-right-brand-color-2x-total-width: 1347px;
+@arrow-right-brand-color-2x-total-height: 979px;
+@arrow-right-brand-color-2x-image: '../images/sprite-2x.png';
+@arrow-right-brand-color-2x: 1328px 357px -1328px -357px 19px 28px 1347px 979px '../images/sprite-2x.png';
+@arrows-2x-x: 0px;
+@arrows-2x-y: 638px;
+@arrows-2x-offset-x: 0px;
+@arrows-2x-offset-y: -638px;
+@arrows-2x-width: 428px;
+@arrows-2x-height: 341px;
+@arrows-2x-total-width: 1347px;
+@arrows-2x-total-height: 979px;
+@arrows-2x-image: '../images/sprite-2x.png';
+@arrows-2x: 0px 638px 0px -638px 428px 341px 1347px 979px '../images/sprite-2x.png';
+@circle-2x-x: 432px;
+@circle-2x-y: 0px;
+@circle-2x-offset-x: -432px;
+@circle-2x-offset-y: 0px;
+@circle-2x-width: 413px;
+@circle-2x-height: 411px;
+@circle-2x-total-width: 1347px;
+@circle-2x-total-height: 979px;
+@circle-2x-image: '../images/sprite-2x.png';
+@circle-2x: 432px 0px -432px 0px 413px 411px 1347px 979px '../images/sprite-2x.png';
+@diagram-2x-x: 0px;
+@diagram-2x-y: 0px;
+@diagram-2x-offset-x: 0px;
+@diagram-2x-offset-y: 0px;
+@diagram-2x-width: 428px;
+@diagram-2x-height: 634px;
+@diagram-2x-total-width: 1347px;
+@diagram-2x-total-height: 979px;
+@diagram-2x-image: '../images/sprite-2x.png';
+@diagram-2x: 0px 0px 0px 0px 428px 634px 1347px 979px '../images/sprite-2x.png';
+@facebook-large-2x-x: 1012px;
+@facebook-large-2x-y: 357px;
+@facebook-large-2x-offset-x: -1012px;
+@facebook-large-2x-offset-y: -357px;
+@facebook-large-2x-width: 154px;
+@facebook-large-2x-height: 154px;
+@facebook-large-2x-total-width: 1347px;
+@facebook-large-2x-total-height: 979px;
+@facebook-large-2x-image: '../images/sprite-2x.png';
+@facebook-large-2x: 1012px 357px -1012px -357px 154px 154px 1347px 979px '../images/sprite-2x.png';
+@facebook-medium-2x-x: 914px;
+@facebook-medium-2x-y: 518px;
+@facebook-medium-2x-offset-x: -914px;
+@facebook-medium-2x-offset-y: -518px;
+@facebook-medium-2x-width: 74px;
+@facebook-medium-2x-height: 74px;
+@facebook-medium-2x-total-width: 1347px;
+@facebook-medium-2x-total-height: 979px;
+@facebook-medium-2x-image: '../images/sprite-2x.png';
+@facebook-medium-2x: 914px 518px -914px -518px 74px 74px 1347px 979px '../images/sprite-2x.png';
+@facebook-small-2x-x: 1216px;
+@facebook-small-2x-y: 518px;
+@facebook-small-2x-offset-x: -1216px;
+@facebook-small-2x-offset-y: -518px;
+@facebook-small-2x-width: 64px;
+@facebook-small-2x-height: 64px;
+@facebook-small-2x-total-width: 1347px;
+@facebook-small-2x-total-height: 979px;
+@facebook-small-2x-image: '../images/sprite-2x.png';
+@facebook-small-2x: 1216px 518px -1216px -518px 64px 64px 1347px 979px '../images/sprite-2x.png';
+@instagram-medium-2x-x: 992px;
+@instagram-medium-2x-y: 518px;
+@instagram-medium-2x-offset-x: -992px;
+@instagram-medium-2x-offset-y: -518px;
+@instagram-medium-2x-width: 74px;
+@instagram-medium-2x-height: 74px;
+@instagram-medium-2x-total-width: 1347px;
+@instagram-medium-2x-total-height: 979px;
+@instagram-medium-2x-image: '../images/sprite-2x.png';
+@instagram-medium-2x: 992px 518px -992px -518px 74px 74px 1347px 979px '../images/sprite-2x.png';
+@instagram-small-2x-x: 1148px;
+@instagram-small-2x-y: 518px;
+@instagram-small-2x-offset-x: -1148px;
+@instagram-small-2x-offset-y: -518px;
+@instagram-small-2x-width: 64px;
+@instagram-small-2x-height: 64px;
+@instagram-small-2x-total-width: 1347px;
+@instagram-small-2x-total-height: 979px;
+@instagram-small-2x-image: '../images/sprite-2x.png';
+@instagram-small-2x: 1148px 518px -1148px -518px 64px 64px 1347px 979px '../images/sprite-2x.png';
+@logo-2x-x: 849px;
+@logo-2x-y: 0px;
+@logo-2x-offset-x: -849px;
+@logo-2x-offset-y: 0px;
+@logo-2x-width: 498px;
+@logo-2x-height: 353px;
+@logo-2x-total-width: 1347px;
+@logo-2x-total-height: 979px;
+@logo-2x-image: '../images/sprite-2x.png';
+@logo-2x: 849px 0px -849px 0px 498px 353px 1347px 979px '../images/sprite-2x.png';
+@map-icon-2x-x: 849px;
+@map-icon-2x-y: 518px;
+@map-icon-2x-offset-x: -849px;
+@map-icon-2x-offset-y: -518px;
+@map-icon-2x-width: 61px;
+@map-icon-2x-height: 97px;
+@map-icon-2x-total-width: 1347px;
+@map-icon-2x-total-height: 979px;
+@map-icon-2x-image: '../images/sprite-2x.png';
+@map-icon-2x: 849px 518px -849px -518px 61px 97px 1347px 979px '../images/sprite-2x.png';
+@play-large-2x-x: 1170px;
+@play-large-2x-y: 357px;
+@play-large-2x-offset-x: -1170px;
+@play-large-2x-offset-y: -357px;
+@play-large-2x-width: 154px;
+@play-large-2x-height: 154px;
+@play-large-2x-total-width: 1347px;
+@play-large-2x-total-height: 979px;
+@play-large-2x-image: '../images/sprite-2x.png';
+@play-large-2x: 1170px 357px -1170px -357px 154px 154px 1347px 979px '../images/sprite-2x.png';
+@take-action-2x-x: 432px;
+@take-action-2x-y: 638px;
+@take-action-2x-offset-x: -432px;
+@take-action-2x-offset-y: -638px;
+@take-action-2x-width: 532px;
+@take-action-2x-height: 100px;
+@take-action-2x-total-width: 1347px;
+@take-action-2x-total-height: 979px;
+@take-action-2x-image: '../images/sprite-2x.png';
+@take-action-2x: 432px 638px -432px -638px 532px 100px 1347px 979px '../images/sprite-2x.png';
+@twitter-large-2x-x: 432px;
+@twitter-large-2x-y: 415px;
+@twitter-large-2x-offset-x: -432px;
+@twitter-large-2x-offset-y: -415px;
+@twitter-large-2x-width: 173px;
+@twitter-large-2x-height: 141px;
+@twitter-large-2x-total-width: 1347px;
+@twitter-large-2x-total-height: 979px;
+@twitter-large-2x-image: '../images/sprite-2x.png';
+@twitter-large-2x: 432px 415px -432px -415px 173px 141px 1347px 979px '../images/sprite-2x.png';
+@twitter-medium-2x-x: 1070px;
+@twitter-medium-2x-y: 518px;
+@twitter-medium-2x-offset-x: -1070px;
+@twitter-medium-2x-offset-y: -518px;
+@twitter-medium-2x-width: 74px;
+@twitter-medium-2x-height: 74px;
+@twitter-medium-2x-total-width: 1347px;
+@twitter-medium-2x-total-height: 979px;
+@twitter-medium-2x-image: '../images/sprite-2x.png';
+@twitter-medium-2x: 1070px 518px -1070px -518px 74px 74px 1347px 979px '../images/sprite-2x.png';
+@twitter-small-2x-x: 609px;
+@twitter-small-2x-y: 415px;
+@twitter-small-2x-offset-x: -609px;
+@twitter-small-2x-offset-y: -415px;
+@twitter-small-2x-width: 64px;
+@twitter-small-2x-height: 64px;
+@twitter-small-2x-total-width: 1347px;
+@twitter-small-2x-total-height: 979px;
+@twitter-small-2x-image: '../images/sprite-2x.png';
+@twitter-small-2x: 609px 415px -609px -415px 64px 64px 1347px 979px '../images/sprite-2x.png';
+@user-large-2x-x: 849px;
+@user-large-2x-y: 357px;
+@user-large-2x-offset-x: -849px;
+@user-large-2x-offset-y: -357px;
+@user-large-2x-width: 159px;
+@user-large-2x-height: 157px;
+@user-large-2x-total-width: 1347px;
+@user-large-2x-total-height: 979px;
+@user-large-2x-image: '../images/sprite-2x.png';
+@user-large-2x: 849px 357px -849px -357px 159px 157px 1347px 979px '../images/sprite-2x.png';
+
+/*
+The provided classes are intended to be used with the array-like variables
+
+.icon-home {
+  .sprite-width(@icon-home);
+}
+.icon-email {
+  .sprite(@icon-email);
+}
+*/
+.sprite-width(@sprite) {
+  width: ~`"@{sprite}".split(', ')[4]`;
+}
+
+.sprite-height(@sprite) {
+  height: ~`"@{sprite}".split(', ')[5]`;
+}
+
+.sprite-position(@sprite) {
+  @sprite-offset-x: ~`"@{sprite}".split(', ')[2]`;
+  @sprite-offset-y: ~`"@{sprite}".split(', ')[3]`;
+  background-position: @sprite-offset-x  @sprite-offset-y;
+}
+
+.sprite-image(@sprite) {
+  @sprite-image: ~`"@{sprite}".split(', ')[8].slice(1, -2)`;
+  background-image: url(@sprite-image);
+}
+
+.sprite(@sprite) {
+  .sprite-image(@sprite);
+  .sprite-position(@sprite);
+  .sprite-width(@sprite);
+  .sprite-height(@sprite);
+}
