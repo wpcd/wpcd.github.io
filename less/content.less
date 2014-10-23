@@ -86,6 +86,12 @@
 		}
 	}
 
+	&#supporters {
+		h1 {
+			margin-bottom: 50px
+		}
+	}
+
 	.thing {
 		border-bottom: 1px solid #ccc;
 
@@ -229,10 +235,13 @@
 			}
 
 			.supporters-list {
-				margin: 40px 0 0;
 				padding: 0;
+				margin: 0;
 				list-style-type: none;
-				border-top: 1px solid #ccc;
+
+				&#supporters-col1 {
+					border-top: 1px solid #ccc;
+				}
 
 				li {
 					display: block;
@@ -321,6 +330,16 @@
 								width: 306px;
 							}
 						}
+					}
+				}
+			}
+		}
+
+		.container {
+			.content {
+				.supporters-list {
+					&#supporters-col2 {
+						border-top: 1px solid #ccc;
 					}
 				}
 			}

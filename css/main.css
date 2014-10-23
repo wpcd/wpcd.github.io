@@ -6602,6 +6602,9 @@ header .container .social-nav ul li .instagram {
     background-size: 266px 1556px;
   }
 }
+.section#supporters h1 {
+  margin-bottom: 50px;
+}
 .section .thing {
   border-bottom: 1px solid #ccc;
 }
@@ -6834,9 +6837,11 @@ header .container .social-nav ul li .instagram {
   }
 }
 .section .container .content .supporters-list {
-  margin: 40px 0 0;
   padding: 0;
+  margin: 0;
   list-style-type: none;
+}
+.section .container .content .supporters-list#supporters-col1 {
   border-top: 1px solid #ccc;
 }
 .section .container .content .supporters-list li {
@@ -6957,5 +6962,8 @@ header .container .social-nav ul li .instagram {
 @media (min-width: 992px) {
   .section.spread-the-word .container .content .social-share div h2 {
     width: 306px;
+  }
+  .section .container .content .supporters-list#supporters-col2 {
+    border-top: 1px solid #ccc;
   }
 }
