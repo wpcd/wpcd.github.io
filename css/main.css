@@ -6373,6 +6373,9 @@ header .container .social-nav ul li .instagram {
   font-weight: 100;
   letter-spacing: 1px;
 }
+.hero .left h2.subhead {
+  width: 345px;
+}
 .hero .left .count {
   font-size: 170px;
   line-height: 0.8;
@@ -6580,6 +6583,7 @@ header .container .social-nav ul li .instagram {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
+  text-decoration: none;
 }
 .section.spread-the-word .container .content .social-share div .pill-button .icon.arrow-right {
   display: block;
