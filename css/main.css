@@ -6426,9 +6426,180 @@ header .container .social-nav ul li .instagram {
 }
 .section.spread-the-word .container .content h1 {
   color: white;
+  margin-bottom: 41px;
 }
 .section.spread-the-word .container .content h1 strong {
   color: white;
+}
+.section.spread-the-word .container .content .social-share {
+  margin-bottom: 30px;
+}
+.section.spread-the-word .container .content .social-share div {
+  color: #666666;
+  background-color: white;
+  padding: 30px;
+  font-size: 20px;
+}
+.section.spread-the-word .container .content .social-share div:before,
+.section.spread-the-word .container .content .social-share div:after {
+  content: " ";
+  display: table;
+}
+.section.spread-the-word .container .content .social-share div:after {
+  clear: both;
+}
+.section.spread-the-word .container .content .social-share div:before,
+.section.spread-the-word .container .content .social-share div:after {
+  content: " ";
+  display: table;
+}
+.section.spread-the-word .container .content .social-share div:after {
+  clear: both;
+}
+.section.spread-the-word .container .content .social-share div h2 {
+  position: relative;
+  margin: 0 0 30px;
+  color: #683090;
+  font-weight: 100;
+  font-size: 37px;
+}
+.section.spread-the-word .container .content .social-share div h2:before,
+.section.spread-the-word .container .content .social-share div h2:after {
+  content: " ";
+  display: table;
+}
+.section.spread-the-word .container .content .social-share div h2:after {
+  clear: both;
+}
+.section.spread-the-word .container .content .social-share div h2:before,
+.section.spread-the-word .container .content .social-share div h2:after {
+  content: " ";
+  display: table;
+}
+.section.spread-the-word .container .content .social-share div h2:after {
+  clear: both;
+}
+.section.spread-the-word .container .content .social-share div h2 .icon {
+  float: left;
+  margin-right: 10px;
+}
+.section.spread-the-word .container .content .social-share div h2 .icon.video {
+  background-image: url(../images/sprite.png);
+  background-position: 0px -519px;
+  width: 77px;
+  height: 77px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
+  .section.spread-the-word .container .content .social-share div h2 .icon.video {
+    background-image: url(../images/sprite-2x.png);
+    background-position: 0px -1042px;
+    width: 154px;
+    height: 154px;
+    background-position: 0px -519px;
+    height: 77px;
+    width: 77px;
+    background-size: 266px 1556px;
+  }
+}
+.section.spread-the-word .container .content .social-share div h2 .icon.twitter {
+  background-image: url(../images/sprite.png);
+  background-position: 0px -368px;
+  width: 87px;
+  height: 70px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
+  .section.spread-the-word .container .content .social-share div h2 .icon.twitter {
+    background-image: url(../images/sprite-2x.png);
+    background-position: 0px -739px;
+    width: 173px;
+    height: 141px;
+    background-position: 0px -368px;
+    height: 70px;
+    width: 87px;
+    background-size: 266px 1556px;
+  }
+}
+.section.spread-the-word .container .content .social-share div h2 .icon.facebook {
+  background-image: url(../images/sprite.png);
+  background-position: 0px -440px;
+  width: 77px;
+  height: 77px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
+  .section.spread-the-word .container .content .social-share div h2 .icon.facebook {
+    background-image: url(../images/sprite-2x.png);
+    background-position: 0px -884px;
+    width: 154px;
+    height: 154px;
+    background-position: 0px -440px;
+    height: 77px;
+    width: 77px;
+    background-size: 266px 1556px;
+  }
+}
+.section.spread-the-word .container .content .social-share div h2 .icon.user {
+  background-image: url(../images/sprite.png);
+  background-position: 0px -598px;
+  width: 80px;
+  height: 79px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
+  .section.spread-the-word .container .content .social-share div h2 .icon.user {
+    background-image: url(../images/sprite-2x.png);
+    background-position: 0px -1200px;
+    width: 159px;
+    height: 157px;
+    background-position: 0px -598px;
+    height: 79px;
+    width: 80px;
+    background-size: 266px 1556px;
+  }
+}
+.section.spread-the-word .container .content .social-share div p {
+  clear: both;
+  margin-bottom: 80px;
+}
+.section.spread-the-word .container .content .social-share div .pill-button {
+  display: block;
+  float: left;
+  font-size: 26px;
+  text-transform: uppercase;
+  color: white;
+  background-image: -webkit-linear-gradient(top, #683090 0%, #993399 100%);
+  background-image: -o-linear-gradient(top, #683090 0%, #993399 100%);
+  background-image: linear-gradient(to bottom, #683090 0%, #993399 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff683090', endColorstr='#ff993399', GradientType=0);
+  font-weight: 700;
+  letter-spacing: 3px;
+  padding: 6px 22px 4px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.section.spread-the-word .container .content .social-share div .pill-button .icon.arrow-right {
+  display: block;
+  float: right;
+  margin: 7px 0 0 10px;
+  background-image: url(../images/sprite.png);
+  background-position: 0px -27px;
+  width: 12px;
+  height: 18px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
+  .section.spread-the-word .container .content .social-share div .pill-button .icon.arrow-right {
+    background-image: url(../images/sprite-2x.png);
+    background-position: 0px -55px;
+    width: 24px;
+    height: 37px;
+    background-position: 0px -27px;
+    height: 18px;
+    width: 12px;
+    background-size: 266px 1556px;
+  }
 }
 .section .thing {
   border-bottom: 1px solid #ccc;
@@ -6639,5 +6810,10 @@ header .container .social-nav ul li .instagram {
   }
   .section .container .content:after {
     clear: both;
+  }
+}
+@media (min-width: 992px) {
+  .section.spread-the-word .container .content .social-share div h2 {
+    width: 306px;
   }
 }

@@ -9,9 +9,77 @@
 			.content {
 				h1 {
 					color: white;
+					margin-bottom: 41px;
 
 					strong {
 						color: white;
+					}
+				}
+
+				.social-share {
+					margin-bottom: 30px;
+
+					div {
+						.clearfix();
+						color: @text-color;
+						background-color: white;
+						padding: 30px;
+						font-size: 20px;
+
+						h2 {
+							.clearfix();
+							position: relative;
+							margin: 0 0 30px;
+							color: @brand-secondary;
+							font-weight:100;
+							font-size: 37px;
+
+							.icon {
+								float: left;
+								margin-right: 10px;
+
+								&.video {
+									.sprite-2x(@play-large-2x, @play-large);
+								}
+
+								&.twitter {
+									.sprite-2x(@twitter-large-2x, @twitter-large);
+								}
+
+								&.facebook {
+									.sprite-2x(@facebook-large-2x, @facebook-large);
+								}
+
+								&.user {
+									.sprite-2x(@user-large-2x, @user-large);
+								}
+							}
+						}
+
+						p {
+							clear: both;
+							margin-bottom: 80px;
+						}
+
+						.pill-button {
+							display: block;
+							float: left;
+							font-size: 26px;
+							text-transform: uppercase;
+							color: white;
+							#gradient > .vertical(#683090; #939);
+							font-weight: 700;
+							letter-spacing: 3px;
+							padding: 6px 22px 4px;
+							.border-radius(50px);
+
+							.icon.arrow-right {
+								display: block;
+								float: right;
+								margin: 7px 0 0 10px;
+								.sprite-2x(@arrow-right-2x, @arrow-right);
+							}
+						}
 					}
 				}
 			}
@@ -142,7 +210,21 @@
 }
 
 @media (min-width: @screen-md-min) {
-
+	.section {
+		&.spread-the-word {
+			.container {
+				.content {
+					.social-share {
+						div {
+							h2 {
+								width: 306px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 }
 
 @media (min-width: @screen-lg-min) {
