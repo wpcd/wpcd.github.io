@@ -227,6 +227,68 @@
 					}
 				}
 			}
+
+			.supporters-list {
+				margin: 40px 0 0;
+				padding: 0;
+				list-style-type: none;
+				border-top: 1px solid #ccc;
+
+				li {
+					display: block;
+					border-bottom: 1px solid #ccc;
+					padding: 9px 0 7px;
+
+					a {
+						display: block;
+						position: relative;
+						.clearfix();
+						font-size: 20px;
+						font-weight: 700;
+						text-transform: uppercase;
+						color: @brand-secondary;
+						text-decoration: none;
+						cursor: pointer;
+
+						.icon {
+							display: block;
+							float: left;
+							margin-right: 5px;
+
+							&.arrow-right {
+								margin-top: 5px;
+								.sprite-2x(@arrow-right-brand-color-2x, @arrow-right-brand-color);
+							}
+
+							&.arrow-down {
+								margin-top: 9px;
+								.sprite-2x(@arrow-down-brand-color-2x, @arrow-down-brand-color);
+							}
+						}
+					}
+
+					ul {
+						list-style-type: none;
+						font-size: 16px;
+						font-weight: 400;
+						padding-left: 14px;
+
+						li {
+							border-bottom: none;
+							padding: 0;
+
+							a {
+								font-size: 16px;
+								font-weight: 400;
+								color: @text-color;
+								text-transform: none;
+								text-decoration: underline;
+
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 }
