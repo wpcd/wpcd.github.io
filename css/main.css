@@ -6256,7 +6256,7 @@ header .container .primary-nav ul li a {
 }
 header .container .social-nav {
   position: absolute;
-  top: 25px;
+  top: 0;
   right: 5px;
 }
 header .container .social-nav ul {
@@ -6605,6 +6605,9 @@ header .container .social-nav ul li .instagram {
 .section#supporters h1 {
   margin-bottom: 50px;
 }
+.section#supporters h1 strong {
+  font-size: 50px;
+}
 .section .thing {
   border-bottom: 1px solid #ccc;
 }
@@ -6664,7 +6667,7 @@ header .container .social-nav ul li .instagram {
   }
 }
 .section .thing .container .content .icon.text {
-  width: 250px;
+  width: 290px;
   font-weight: 700;
   font-size: 183px;
   letter-spacing: -6px;
@@ -6802,7 +6805,7 @@ header .container .social-nav ul li .instagram {
 }
 .section .container .content .partners-list ul li {
   display: block;
-  padding-right: 105px;
+  padding-right: 75px;
   margin-bottom: 35px;
 }
 .section .container .content .partners-list ul li h3 {
@@ -6938,9 +6941,12 @@ header .container .social-nav ul li .instagram {
 }
 #map_canvas {
   width: 100%;
-  height: 515px;
+  height: 415px;
 }
 @media (min-width: 768px) {
+  .section#supporters h1 strong {
+    font-size: 65px;
+  }
   .section .container .content {
     padding: 40px 30px;
   }
@@ -6960,6 +6966,9 @@ header .container .social-nav ul li .instagram {
   .section .container .content:after {
     clear: both;
   }
+  #map_canvas {
+    height: 515px;
+  }
 }
 @media (min-width: 992px) {
   .section.spread-the-word .container .content .social-share div h2 {
@@ -6967,5 +6976,8 @@ header .container .social-nav ul li .instagram {
   }
   .section .container .content .supporters-list#supporters-col2 {
     border-top: 1px solid #ccc;
+  }
+  .section .container .content .partners-list ul li {
+    padding-right: 105px;
   }
 }
