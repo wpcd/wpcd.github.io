@@ -6921,11 +6921,12 @@ header .container .social-nav ul li .instagram {
   list-style-type: none;
   font-size: 16px;
   font-weight: 400;
-  padding-left: 14px;
+  padding-left: 19px;
 }
 .section .container .content .supporters-list li ul li {
   border-bottom: none;
-  padding: 0;
+  padding: 7px 0;
+  line-height: 1.2;
 }
 .section .container .content .supporters-list li ul li a {
   font-size: 16px;
@@ -6933,6 +6934,7 @@ header .container .social-nav ul li .instagram {
   color: #666666;
   text-transform: none;
   text-decoration: underline;
+  line-height: 1.2;
 }
 #map_canvas {
   width: 100%;
