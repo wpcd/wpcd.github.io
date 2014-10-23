@@ -6277,7 +6277,7 @@ header .container .social-nav ul li .instagram {
 }
 .hero {
   color: white;
-  padding: 62px 49px;
+  padding: 62px 25px;
 }
 .hero:before,
 .hero:after {
@@ -6325,6 +6325,9 @@ header .container .social-nav ul li .instagram {
   margin-top: 31px;
 }
 @media (min-width: 768px) {
+  .hero {
+    padding: 62px 49px;
+  }
   .hero .left .count {
     font-size: 233px;
   }
@@ -6399,7 +6402,7 @@ header .container .social-nav ul li .instagram {
   height: 171px;
 }
 .section .container .content {
-  padding: 40px 30px;
+  padding: 40px 15px;
 }
 .section .container .content:before,
 .section .container .content:after {
@@ -6464,4 +6467,25 @@ header .container .social-nav ul li .instagram {
   background-position: -497px -259px;
   width: 37px;
   height: 37px;
+}
+@media (min-width: 768px) {
+  .section .container .content {
+    padding: 40px 30px;
+  }
+  .section .container .content:before,
+  .section .container .content:after {
+    content: " ";
+    display: table;
+  }
+  .section .container .content:after {
+    clear: both;
+  }
+  .section .container .content:before,
+  .section .container .content:after {
+    content: " ";
+    display: table;
+  }
+  .section .container .content:after {
+    clear: both;
+  }
 }
