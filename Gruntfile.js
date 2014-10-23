@@ -14,11 +14,23 @@ module.exports = function(grunt) {
 
 		sprite: {
 			wpcd: {
-				src: ['images/sprite/*.png'],
+				src: 'images/sprite/**/*.*',
 				destImg: 'images/sprite.png',
 				destCSS: 'less/sprite.less',
 				algorithm: 'binary-tree',
 				padding: 2,
+				cssFormat: 'less',
+				cssOpts: {
+					cssClass: function(item) { return '.sprite-'+item.name;}
+				}
+			},
+
+			wpcd_2x: {
+				src: 'images/sprite-2x/**/*.*',
+				destImg: 'images/sprite-2x.png',
+				destCSS: 'less/sprite-2x.less',
+				algorithm: 'binary-tree',
+				padding: 4,
 				cssFormat: 'less',
 				cssOpts: {
 					cssClass: function(item) { return '.sprite-'+item.name;}
@@ -44,5 +56,5 @@ module.exports = function(grunt) {
 		}
 	});
 
-	grunt.registerTask('build', ['sprite:wpcd', 'less:production'])
+	grunt.registerTask('build', ['sprite', 'less:production'])
 };
