@@ -45,7 +45,7 @@
 		<div class="container">
 			<div class="col-md-6 left">
 				<h2>So Far Today</h2>
-				<p class="count">578</p>
+				<p class="count" id="counter">0</p>
 				<h2>People have lost their fight<br />with pancreatic cancer.</h2>
 			</div>
 
@@ -259,12 +259,17 @@
 			<div class="content">
 				<div class="col-md-12">
 					<h1><strong>Global</strong> Partners</h1>
-					<div class="map">
-						<h1>Big ass map</h1>
-					</div>
+				</div>
+			</div>
+		</div>
 
+		<div id="map_canvas"></div>
+
+		<div class="container">
+			<div class="content">
+				<div class="col-md-12">
 					<div class="row">
-						<div class="col-md-6">
+						<div class="col-md-6 partners-list">
 							<ul>
 								<li>
 									<a href="#" class="icon-map">Map icon</a>
@@ -292,7 +297,7 @@
 							</ul>
 						</div>
 
-						<div class="col-md-6">
+						<div class="col-md-6 partners-list">
 							<ul>
 								<li>
 									<a href="#" class="icon-map">Map icon</a>
@@ -568,8 +573,10 @@
 	</div>
 
 
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5BJToJdaBQV218Q6GaMS7edafVid2dvQ"></script>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="javascript/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+	<script src="javascript/vendor/jquery-count-up.min.js"></script>
 	<script src="javascript/main.js"></script>
 	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID.
 	<script>
