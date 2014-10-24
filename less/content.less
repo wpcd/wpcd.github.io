@@ -409,24 +409,28 @@
 				}
 			}
 		}
+	}
 
-		.thing {
-			height: 315px;
-			.container {
-				height: 100%;
-				.content {
+	.csstransforms {
+		.section {
+			.thing {
+				height: 315px;
+				.container {
 					height: 100%;
-					.col-md-12 {
+					.content {
 						height: 100%;
-						.row {
+						.col-md-12 {
 							height: 100%;
-							div {
-								margin: 0;
-								position: relative;
-								top: 50%;
-								-webkit-transform: translateY(-50%);
-								-ms-transform: translateY(-50%);
-								transform: translateY(-50%);
+							.row {
+								height: 100%;
+								div {
+									margin: 0;
+									position: relative;
+									top: 50%;
+									-webkit-transform: translateY(-50%);
+									-ms-transform: translateY(-50%);
+									transform: translateY(-50%);
+								}
 							}
 						}
 					}
@@ -434,6 +438,9 @@
 			}
 		}
 	}
+
+
+
 }
 
 @media (min-width: @screen-lg-min) {
