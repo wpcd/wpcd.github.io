@@ -6222,20 +6222,20 @@ header .container {
 header .container .icon-logo {
   display: block;
   background-image: url(../images/sprite.png);
-  background-position: 0px -878px;
+  background-position: 0px -1235px;
   width: 249px;
   height: 176px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   header .container .icon-logo {
     background-image: url(../images/sprite-2x.png);
-    background-position: 0px -1755px;
+    background-position: 0px -2469px;
     width: 498px;
     height: 353px;
-    background-position: 0px -878px;
+    background-position: 0px -1235px;
     height: 176px;
     width: 249px;
-    background-size: 266px 1583px;
+    background-size: 486px 1940px;
   }
 }
 header .container .primary-nav ul {
@@ -6273,56 +6273,56 @@ header .container .social-nav ul li a {
 }
 header .container .social-nav ul li .facebook {
   background-image: url(../images/sprite.png);
-  background-position: 0px -200px;
+  background-position: 0px -181px;
   width: 40px;
   height: 40px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   header .container .social-nav ul li .facebook {
     background-image: url(../images/sprite-2x.png);
-    background-position: 0px -400px;
+    background-position: 0px -362px;
     width: 80px;
     height: 80px;
-    background-position: 0px -200px;
+    background-position: 0px -181px;
     height: 40px;
     width: 40px;
-    background-size: 266px 1583px;
+    background-size: 486px 1940px;
   }
 }
 header .container .social-nav ul li .twitter {
   background-image: url(../images/sprite.png);
-  background-position: 0px -158px;
+  background-position: 0px -265px;
   width: 40px;
   height: 40px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   header .container .social-nav ul li .twitter {
     background-image: url(../images/sprite-2x.png);
-    background-position: 0px -316px;
+    background-position: 0px -530px;
     width: 80px;
     height: 80px;
-    background-position: 0px -158px;
+    background-position: 0px -265px;
     height: 40px;
     width: 40px;
-    background-size: 266px 1583px;
+    background-size: 486px 1940px;
   }
 }
 header .container .social-nav ul li .instagram {
   background-image: url(../images/sprite.png);
-  background-position: 0px -242px;
+  background-position: 0px -223px;
   width: 40px;
   height: 40px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   header .container .social-nav ul li .instagram {
     background-image: url(../images/sprite-2x.png);
-    background-position: 0px -484px;
+    background-position: 0px -446px;
     width: 80px;
     height: 80px;
-    background-position: 0px -242px;
+    background-position: 0px -223px;
     height: 40px;
     width: 40px;
-    background-size: 266px 1583px;
+    background-size: 486px 1940px;
   }
 }
 @media (min-width: 768px) {
@@ -6381,6 +6381,7 @@ header .container .social-nav ul li .instagram {
   line-height: 0.8;
   font-weight: 700;
   margin: 0 0 16px -14px;
+  visibility: hidden;
 }
 .hero .right {
   margin-top: 30px;
@@ -6391,7 +6392,7 @@ header .container .social-nav ul li .instagram {
   display: block;
   text-indent: -10000px;
   background-image: url(../images/sprite.png);
-  background-position: 0px -336px;
+  background-position: 0px -307px;
   width: 266px;
   height: 50px;
   margin-top: 31px;
@@ -6399,13 +6400,13 @@ header .container .social-nav ul li .instagram {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   .hero .right a {
     background-image: url(../images/sprite-2x.png);
-    background-position: 0px -672px;
+    background-position: 0px -614px;
     width: 532px;
     height: 100px;
-    background-position: 0px -336px;
+    background-position: 0px -307px;
     height: 50px;
     width: 266px;
-    background-size: 266px 1583px;
+    background-size: 486px 1940px;
   }
 }
 @media (min-width: 768px) {
@@ -6489,122 +6490,79 @@ header .container .social-nav ul li .instagram {
 }
 .section.spread-the-word .container .content .social-share div h2 .icon.video {
   background-image: url(../images/sprite.png);
-  background-position: 0px -543px;
+  background-position: 0px -545px;
   width: 79px;
   height: 79px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   .section.spread-the-word .container .content .social-share div h2 .icon.video {
     background-image: url(../images/sprite-2x.png);
-    background-position: 0px -1086px;
+    background-position: 0px -1090px;
     width: 158px;
     height: 158px;
-    background-position: 0px -543px;
+    background-position: 0px -545px;
     height: 79px;
     width: 79px;
-    background-size: 266px 1583px;
+    background-size: 486px 1940px;
   }
 }
 .section.spread-the-word .container .content .social-share div h2 .icon.twitter {
   background-image: url(../images/sprite.png);
-  background-position: 0px -388px;
+  background-position: 0px -471px;
   width: 86px;
   height: 72px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   .section.spread-the-word .container .content .social-share div h2 .icon.twitter {
     background-image: url(../images/sprite-2x.png);
-    background-position: 0px -776px;
+    background-position: 0px -942px;
     width: 172px;
     height: 144px;
-    background-position: 0px -388px;
+    background-position: 0px -471px;
     height: 72px;
     width: 86px;
-    background-size: 266px 1583px;
+    background-size: 486px 1940px;
   }
 }
 .section.spread-the-word .container .content .social-share div h2 .icon.facebook {
   background-image: url(../images/sprite.png);
-  background-position: 0px -462px;
+  background-position: 0px -707px;
   width: 79px;
   height: 79px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   .section.spread-the-word .container .content .social-share div h2 .icon.facebook {
     background-image: url(../images/sprite-2x.png);
-    background-position: 0px -924px;
+    background-position: 0px -1414px;
     width: 158px;
     height: 158px;
-    background-position: 0px -462px;
+    background-position: 0px -707px;
     height: 79px;
     width: 79px;
-    background-size: 266px 1583px;
+    background-size: 486px 1940px;
   }
 }
 .section.spread-the-word .container .content .social-share div h2 .icon.user {
   background-image: url(../images/sprite.png);
-  background-position: 0px -624px;
+  background-position: 0px -626px;
   width: 79px;
   height: 79px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   .section.spread-the-word .container .content .social-share div h2 .icon.user {
     background-image: url(../images/sprite-2x.png);
-    background-position: 0px -1248px;
+    background-position: 0px -1252px;
     width: 158px;
     height: 158px;
-    background-position: 0px -624px;
+    background-position: 0px -626px;
     height: 79px;
     width: 79px;
-    background-size: 266px 1583px;
+    background-size: 486px 1940px;
   }
 }
 .section.spread-the-word .container .content .social-share div p {
   clear: both;
   margin-bottom: 80px;
-}
-.section.spread-the-word .container .content .social-share div .pill-button {
-  display: block;
-  float: left;
-  font-size: 26px;
-  text-transform: uppercase;
-  color: white;
-  background-image: -webkit-linear-gradient(top, #683090 0%, #993399 100%);
-  background-image: -o-linear-gradient(top, #683090 0%, #993399 100%);
-  background-image: linear-gradient(to bottom, #683090 0%, #993399 100%);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff683090', endColorstr='#ff993399', GradientType=0);
-  font-weight: 700;
-  letter-spacing: 3px;
-  padding: 6px 22px 4px;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  border-radius: 50px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  text-decoration: none;
-}
-.section.spread-the-word .container .content .social-share div .pill-button .icon.arrow-right {
-  display: block;
-  float: right;
-  margin: 7px 0 0 10px;
-  background-image: url(../images/sprite.png);
-  background-position: 0px -31px;
-  width: 14px;
-  height: 20px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
-  .section.spread-the-word .container .content .social-share div .pill-button .icon.arrow-right {
-    background-image: url(../images/sprite-2x.png);
-    background-position: 0px -62px;
-    width: 28px;
-    height: 40px;
-    background-position: 0px -31px;
-    height: 20px;
-    width: 14px;
-    background-size: 266px 1583px;
-  }
 }
 .section#supporters h1 {
   margin-bottom: 50px;
@@ -6622,11 +6580,11 @@ header .container .social-nav ul li .instagram {
   padding-top: 0;
   padding-bottom: 0;
 }
-.section .thing .container .content .factoid {
-  margin: 58px 0;
-}
 .section .thing .container .content p {
   font-size: 26px;
+}
+.section .thing .container .content .factoid {
+  margin: 55px 0;
 }
 .section .thing .container .content .icon {
   display: block;
@@ -6634,40 +6592,76 @@ header .container .social-nav ul li .instagram {
 }
 .section .thing .container .content .icon.circle {
   background-image: url(../images/sprite.png);
-  background-position: 0px -1056px;
+  background-position: 0px -1413px;
   width: 208px;
   height: 208px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   .section .thing .container .content .icon.circle {
     background-image: url(../images/sprite-2x.png);
-    background-position: 0px -2112px;
+    background-position: 0px -2826px;
     width: 416px;
     height: 416px;
-    background-position: 0px -1056px;
+    background-position: 0px -1413px;
     height: 208px;
     width: 208px;
-    background-size: 266px 1583px;
+    background-size: 486px 1940px;
+  }
+}
+.section .thing .container .content .icon.eighty-percent {
+  background-image: url(../images/sprite.png);
+  background-position: 0px -788px;
+  width: 325px;
+  height: 135px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
+  .section .thing .container .content .icon.eighty-percent {
+    background-image: url(../images/sprite-2x.png);
+    background-position: 0px -1576px;
+    width: 650px;
+    height: 270px;
+    background-position: 0px -788px;
+    height: 135px;
+    width: 325px;
+    background-size: 486px 1940px;
   }
 }
 .section .thing .container .content .icon.diagram {
   margin-top: 0px;
   margin-bottom: 0px;
   background-image: url(../images/sprite.png);
-  background-position: 0px -1266px;
+  background-position: 0px -1623px;
   width: 214px;
   height: 317px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   .section .thing .container .content .icon.diagram {
     background-image: url(../images/sprite-2x.png);
-    background-position: 0px -2532px;
+    background-position: 0px -3246px;
     width: 428px;
     height: 634px;
-    background-position: 0px -1266px;
+    background-position: 0px -1623px;
     height: 317px;
     width: 214px;
-    background-size: 266px 1583px;
+    background-size: 486px 1940px;
+  }
+}
+.section .thing .container .content .icon.ten-x {
+  background-image: url(../images/sprite.png);
+  background-position: 0px -925px;
+  width: 311px;
+  height: 135px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
+  .section .thing .container .content .icon.ten-x {
+    background-image: url(../images/sprite-2x.png);
+    background-position: 0px -1850px;
+    width: 622px;
+    height: 270px;
+    background-position: 0px -925px;
+    height: 135px;
+    width: 311px;
+    background-size: 486px 1940px;
   }
 }
 .section .thing .container .content .icon.text {
@@ -6683,20 +6677,20 @@ header .container .social-nav ul li .instagram {
 }
 .section .thing .container .content .icon.arrows {
   background-image: url(../images/sprite.png);
-  background-position: 0px -705px;
+  background-position: 0px -1062px;
   width: 214px;
   height: 171px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   .section .thing .container .content .icon.arrows {
     background-image: url(../images/sprite-2x.png);
-    background-position: 0px -1410px;
+    background-position: 0px -2124px;
     width: 428px;
     height: 341px;
-    background-position: 0px -705px;
+    background-position: 0px -1062px;
     height: 171px;
     width: 214px;
-    background-size: 266px 1583px;
+    background-size: 486px 1940px;
   }
 }
 .section .container .content {
@@ -6750,56 +6744,56 @@ header .container .social-nav ul li .instagram {
 }
 .section .container .content .share-this li .facebook {
   background-image: url(../images/sprite.png);
-  background-position: 0px -123px;
+  background-position: 0px -111px;
   width: 33px;
   height: 33px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   .section .container .content .share-this li .facebook {
     background-image: url(../images/sprite-2x.png);
-    background-position: 0px -246px;
+    background-position: 0px -222px;
     width: 66px;
     height: 66px;
-    background-position: 0px -123px;
+    background-position: 0px -111px;
     height: 33px;
     width: 33px;
-    background-size: 266px 1583px;
+    background-size: 486px 1940px;
   }
 }
 .section .container .content .share-this li .twitter {
   background-image: url(../images/sprite.png);
-  background-position: 0px -53px;
+  background-position: 0px -146px;
   width: 33px;
   height: 33px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   .section .container .content .share-this li .twitter {
     background-image: url(../images/sprite-2x.png);
-    background-position: 0px -106px;
+    background-position: 0px -292px;
     width: 66px;
     height: 66px;
-    background-position: 0px -53px;
+    background-position: 0px -146px;
     height: 33px;
     width: 33px;
-    background-size: 266px 1583px;
+    background-size: 486px 1940px;
   }
 }
 .section .container .content .share-this li .instagram {
   background-image: url(../images/sprite.png);
-  background-position: 0px -88px;
+  background-position: 0px -76px;
   width: 33px;
   height: 33px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   .section .container .content .share-this li .instagram {
     background-image: url(../images/sprite-2x.png);
-    background-position: 0px -176px;
+    background-position: 0px -152px;
     width: 66px;
     height: 66px;
-    background-position: 0px -88px;
+    background-position: 0px -76px;
     height: 33px;
     width: 33px;
-    background-size: 266px 1583px;
+    background-size: 486px 1940px;
   }
 }
 .section .container .content .partners-list ul {
@@ -6825,7 +6819,7 @@ header .container .social-nav ul li .instagram {
   display: block;
   float: left;
   background-image: url(../images/sprite.png);
-  background-position: 0px -284px;
+  background-position: 0px -359px;
   width: 32px;
   height: 50px;
   text-indent: -10000px;
@@ -6834,13 +6828,13 @@ header .container .social-nav ul li .instagram {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   .section .container .content .partners-list ul li .icon-map {
     background-image: url(../images/sprite-2x.png);
-    background-position: 0px -568px;
+    background-position: 0px -718px;
     width: 64px;
     height: 100px;
-    background-position: 0px -284px;
+    background-position: 0px -359px;
     height: 50px;
     width: 32px;
-    background-size: 266px 1583px;
+    background-size: 486px 1940px;
   }
 }
 .section .container .content .supporters-list {
@@ -6904,7 +6898,7 @@ header .container .social-nav ul li .instagram {
     background-position: 0px -13px;
     height: 16px;
     width: 11px;
-    background-size: 266px 1583px;
+    background-size: 486px 1940px;
   }
 }
 .section .container .content .supporters-list li a .icon.arrow-down {
@@ -6922,7 +6916,7 @@ header .container .social-nav ul li .instagram {
     background-position: 0px 0px;
     height: 11px;
     width: 16px;
-    background-size: 266px 1583px;
+    background-size: 486px 1940px;
   }
 }
 .section .container .content .supporters-list li ul {
@@ -6943,6 +6937,49 @@ header .container .social-nav ul li .instagram {
   text-transform: none;
   text-decoration: underline;
   line-height: 1.2;
+}
+.section .container .content .pill-button {
+  display: block;
+  float: left;
+  font-size: 26px;
+  text-transform: uppercase;
+  color: white;
+  background-image: -webkit-linear-gradient(top, #683090 0%, #993399 100%);
+  background-image: -o-linear-gradient(top, #683090 0%, #993399 100%);
+  background-image: linear-gradient(to bottom, #683090 0%, #993399 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff683090', endColorstr='#ff993399', GradientType=0);
+  font-weight: 700;
+  letter-spacing: 3px;
+  padding: 6px 22px 4px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  text-decoration: none;
+}
+.section .container .content .pill-button .icon.arrow-right {
+  display: block;
+  float: right;
+  margin: 7px 0 0 10px;
+  background-image: url(../images/sprite.png);
+  background-position: 0px -31px;
+  width: 14px;
+  height: 20px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
+  .section .container .content .pill-button .icon.arrow-right {
+    background-image: url(../images/sprite-2x.png);
+    background-position: 0px -62px;
+    width: 28px;
+    height: 40px;
+    background-position: 0px -31px;
+    height: 20px;
+    width: 14px;
+    background-size: 486px 1940px;
+  }
 }
 #map_canvas {
   width: 100%;
@@ -6977,12 +7014,35 @@ header .container .social-nav ul li .instagram {
 }
 @media (min-width: 992px) {
   .section.spread-the-word .container .content .social-share div h2 {
-    width: 308px;
+    width: 310px;
   }
   .section .container .content .supporters-list#supporters-col2 {
     border-top: 1px solid #ccc;
   }
   .section .container .content .partners-list ul li {
     padding-right: 105px;
+  }
+  .section .thing {
+    height: 315px;
+  }
+  .section .thing .container {
+    height: 100%;
+  }
+  .section .thing .container .content {
+    height: 100%;
+  }
+  .section .thing .container .content .col-md-12 {
+    height: 100%;
+  }
+  .section .thing .container .content .col-md-12 .row {
+    height: 100%;
+  }
+  .section .thing .container .content .col-md-12 .row div {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
   }
 }

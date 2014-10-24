@@ -46,15 +46,11 @@
 	var count = Math.floor(diff/divisor);
 
 	$(window).load(function() {
-		var numAnim = new countUp('counter', 0, count, 0, 1.5);
-		numAnim.start();
-
+		$('#counter').text(count).css('visibility','visible').hide().fadeIn();
 
 		$('.collapse').on('show.bs.collapse', function () {
-			console.log($(this).siblings('a'));
 			$(this).siblings('a').find('span').removeClass('arrow-right').addClass('arrow-down');
 		}).on('hide.bs.collapse', function () {
-			console.log(this);
 			$(this).siblings('a').find('span').removeClass('arrow-down').addClass('arrow-right');
 		});
 	});

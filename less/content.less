@@ -60,27 +60,6 @@
 							clear: both;
 							margin-bottom: 80px;
 						}
-
-						.pill-button {
-							display: block;
-							float: left;
-							font-size: 26px;
-							text-transform: uppercase;
-							color: white;
-							#gradient > .vertical(#683090; #939);
-							font-weight: 700;
-							letter-spacing: 3px;
-							padding: 6px 22px 4px;
-							.border-radius(50px);
-							text-decoration: none;
-
-							.icon.arrow-right {
-								display: block;
-								float: right;
-								margin: 7px 0 0 10px;
-								.sprite-2x(@arrow-right-2x, @arrow-right);
-							}
-						}
 					}
 				}
 			}
@@ -109,12 +88,12 @@
 				padding-top: 0;
 				padding-bottom: 0;
 
-				.factoid {
-					margin: 58px 0;
-				}
-
 				p {
 					font-size: 26px;
+				}
+
+				.factoid {
+					margin: 55px 0;
 				}
 
 				.icon {
@@ -125,10 +104,18 @@
 						.sprite-2x(@circle-2x, @circle);
 					}
 
+					&.eighty-percent {
+						.sprite-2x(@80-percent-2x, @80-percent);
+					}
+
 					&.diagram {
 						margin-top: 0px;
 						margin-bottom: 0px;
 						.sprite-2x(@diagram-2x, @diagram);
+					}
+
+					&.ten-x {
+						.sprite-2x(@10x-2x, @10x);
 					}
 
 					&.text {
@@ -305,6 +292,27 @@
 					}
 				}
 			}
+
+			.pill-button {
+				display: block;
+				float: left;
+				font-size: 26px;
+				text-transform: uppercase;
+				color: white;
+				#gradient > .vertical(#683090; #939);
+				font-weight: 700;
+				letter-spacing: 3px;
+				padding: 6px 22px 4px;
+				.border-radius(50px);
+				text-decoration: none;
+
+				.icon.arrow-right {
+					display: block;
+					float: right;
+					margin: 7px 0 0 10px;
+					.sprite-2x(@arrow-right-2x, @arrow-right);
+				}
+			}
 		}
 	}
 }
@@ -346,7 +354,7 @@
 					.social-share {
 						div {
 							h2 {
-								width: 308px;
+								width: 310px;
 							}
 						}
 					}
@@ -366,6 +374,30 @@
 					ul {
 						li {
 							padding-right: 105px;
+						}
+					}
+				}
+			}
+		}
+
+		.thing {
+			height: 315px;
+			.container {
+				height: 100%;
+				.content {
+					height: 100%;
+					.col-md-12 {
+						height: 100%;
+						.row {
+							height: 100%;
+							div {
+								margin: 0;
+								position: relative;
+								top: 50%;
+								-webkit-transform: translateY(-50%);
+								-ms-transform: translateY(-50%);
+								transform: translateY(-50%);
+							}
 						}
 					}
 				}
