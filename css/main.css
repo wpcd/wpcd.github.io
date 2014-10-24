@@ -7101,3 +7101,6 @@ header .container .social-nav ul li .instagram {
     transform: translateY(-50%);
   }
 }
+.lt-ie9 .section.spread-the-word .container .content .social-share div h2 {
+  width: 310px;
+}
