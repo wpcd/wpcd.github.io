@@ -7,7 +7,7 @@ header {
 		position: relative;
 		.icon-logo {
 			display: block;
-			.sprite-2x(@logo-2x, @logo);
+			.sprite-2x(@mobile-logo-2x, @mobile-logo);
 		}
 
 		.primary-nav {
@@ -69,6 +69,10 @@ header {
 @media (min-width: @screen-sm-min) {
 	header {
 		.container {
+			.icon-logo {
+				.sprite-2x(@logo-2x, @logo);
+			}
+
 			.social-nav {
 				right: 27px;
 			}
