@@ -38,6 +38,13 @@ The provided classes are intended to be used with the array-like variables
   .sprite(@icon-email);
 }
 */
+.vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -6758,8 +6765,21 @@ header .container .social-nav ul li .instagram {
   font-weight: 700;
   color: #683090;
 }
-.section .container .content .symptoms-col {
-  margin-right: 105px;
+.section .container .content .symptoms-col:before,
+.section .container .content .symptoms-col:after {
+  content: " ";
+  display: table;
+}
+.section .container .content .symptoms-col:after {
+  clear: both;
+}
+.section .container .content .symptoms-col:before,
+.section .container .content .symptoms-col:after {
+  content: " ";
+  display: table;
+}
+.section .container .content .symptoms-col:after {
+  clear: both;
 }
 .section .container .content .symptoms-col h2 {
   color: #683090;
@@ -7077,6 +7097,9 @@ header .container .social-nav ul li .instagram {
   .section .container .content .partners-list ul li {
     padding-right: 105px;
   }
+  .section .container .content .symptoms-col {
+    margin-right: 18px;
+  }
   .csstransforms .section .thing {
     height: 315px;
   }
@@ -7099,6 +7122,11 @@ header .container .social-nav ul li .instagram {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+  }
+}
+@media (min-width: 1200px) {
+  .section .container .content .symptoms-col {
+    margin-right: 105px;
   }
 }
 .lt-ie9 .section.spread-the-word .container .content .social-share div h2 {

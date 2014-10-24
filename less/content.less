@@ -157,7 +157,7 @@
 			}
 
 			.symptoms-col {
-				margin-right: 105px;
+				.clearfix();
 
 				h2 {
 					color: @brand-secondary;
@@ -331,6 +331,7 @@
 					float: right;
 					margin: 7px 0 0 10px;
 					.sprite-2x(@arrow-right-2x, @arrow-right);
+
 				}
 			}
 		}
@@ -407,6 +408,10 @@
 						}
 					}
 				}
+
+				.symptoms-col {
+					margin-right: 18px;
+				}
 			}
 		}
 	}
@@ -425,11 +430,7 @@
 								height: 100%;
 								div {
 									margin: 0;
-									position: relative;
-									top: 50%;
-									-webkit-transform: translateY(-50%);
-									-ms-transform: translateY(-50%);
-									transform: translateY(-50%);
+									.vertical-align();
 								}
 							}
 						}
@@ -438,13 +439,18 @@
 			}
 		}
 	}
-
-
-
 }
 
 @media (min-width: @screen-lg-min) {
-
+	.section {
+		.container {
+			.content {
+				.symptoms-col {
+					margin-right: 105px;
+				}
+			}
+		}
+	}
 }
 
 .lt-ie9 {
