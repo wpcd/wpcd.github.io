@@ -6362,6 +6362,24 @@ header .container .social-nav ul li .instagram {
     margin: 0 0 0 21px;
   }
 }
+.lt-ie9 header .container .icon-logo {
+  background-image: url(../images/sprite.png);
+  background-position: 0px -1235px;
+  width: 249px;
+  height: 176px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
+  .lt-ie9 header .container .icon-logo {
+    background-image: url(../images/sprite-2x.png);
+    background-position: 0px -2469px;
+    width: 498px;
+    height: 353px;
+    background-position: 0px -1235px;
+    height: 176px;
+    width: 249px;
+    background-size: 486px 1940px;
+  }
+}
 .hero {
   color: white;
   padding: 62px 20px;
