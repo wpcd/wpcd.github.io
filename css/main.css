@@ -2395,6 +2395,9 @@ output {
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) 3px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) 3px 5px rgba(0, 0, 0, 0.5);
   -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
   -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
@@ -2404,6 +2407,9 @@ output {
   outline: 0;
   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
   box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6) 3px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6) 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6) 3px 5px rgba(0, 0, 0, 0.5);
 }
 .form-control::-moz-placeholder {
   color: #777777;
@@ -2592,11 +2598,17 @@ select[multiple].input-lg {
   border-color: #3c763d;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) 3px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) 3px 5px rgba(0, 0, 0, 0.5);
 }
 .has-success .form-control:focus {
   border-color: #2b542c;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168 3px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168 3px 5px rgba(0, 0, 0, 0.5);
 }
 .has-success .input-group-addon {
   color: #3c763d;
@@ -2618,11 +2630,17 @@ select[multiple].input-lg {
   border-color: #8a6d3b;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) 3px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) 3px 5px rgba(0, 0, 0, 0.5);
 }
 .has-warning .form-control:focus {
   border-color: #66512c;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b 3px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b 3px 5px rgba(0, 0, 0, 0.5);
 }
 .has-warning .input-group-addon {
   color: #8a6d3b;
@@ -2644,11 +2662,17 @@ select[multiple].input-lg {
   border-color: #a94442;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) 3px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) 3px 5px rgba(0, 0, 0, 0.5);
 }
 .has-error .form-control:focus {
   border-color: #843534;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483 3px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483 3px 5px rgba(0, 0, 0, 0.5);
 }
 .has-error .input-group-addon {
   color: #a94442;
@@ -2788,6 +2812,9 @@ select[multiple].input-lg {
   background-image: none;
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125) 3px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125) 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125) 3px 5px rgba(0, 0, 0, 0.5);
 }
 .btn.disabled,
 .btn[disabled],
@@ -2798,6 +2825,9 @@ fieldset[disabled] .btn {
   filter: alpha(opacity=65);
   -webkit-box-shadow: none;
   box-shadow: none;
+  -webkit-box-shadow: none 3px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: none 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: none 3px 5px rgba(0, 0, 0, 0.5);
 }
 .btn-default {
   color: #333333;
@@ -3058,6 +3088,9 @@ fieldset[disabled] .btn-link {
   background-color: transparent;
   -webkit-box-shadow: none;
   box-shadow: none;
+  -webkit-box-shadow: none 3px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: none 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: none 3px 5px rgba(0, 0, 0, 0.5);
 }
 .btn-link,
 .btn-link:hover,
@@ -3175,6 +3208,9 @@ tbody.collapse.in {
   border-radius: 4px;
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175) 3px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175) 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175) 3px 5px rgba(0, 0, 0, 0.5);
   background-clip: padding-box;
 }
 .dropdown-menu.pull-right {
@@ -3367,10 +3403,16 @@ tbody.collapse.in {
 .btn-group.open .dropdown-toggle {
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125) 3px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125) 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125) 3px 5px rgba(0, 0, 0, 0.5);
 }
 .btn-group.open .dropdown-toggle.btn-link {
   -webkit-box-shadow: none;
   box-shadow: none;
+  -webkit-box-shadow: none 3px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: none 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: none 3px 5px rgba(0, 0, 0, 0.5);
 }
 .btn .caret {
   margin-left: 0;
@@ -4012,6 +4054,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-bottom: 1px solid transparent;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1) 3px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1) 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1) 3px 5px rgba(0, 0, 0, 0.5);
   margin-top: 8px;
   margin-bottom: 8px;
 }
@@ -4077,6 +4122,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     padding-bottom: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
+    -webkit-box-shadow: none 3px 5px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: none 3px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: none 3px 5px rgba(0, 0, 0, 0.5);
   }
   .navbar-form.navbar-right:last-child {
     margin-right: -15px;
@@ -4733,6 +4781,9 @@ a.thumbnail.active {
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1) 3px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1) 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1) 3px 5px rgba(0, 0, 0, 0.5);
 }
 .progress-bar {
   float: left;
@@ -4745,6 +4796,9 @@ a.thumbnail.active {
   background-color: #993399;
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15) 3px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15) 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15) 3px 5px rgba(0, 0, 0, 0.5);
   -webkit-transition: width 0.6s ease;
   -o-transition: width 0.6s ease;
   transition: width 0.6s ease;
@@ -5015,6 +5069,9 @@ a.list-group-item-danger.active:focus {
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) 3px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) 3px 5px rgba(0, 0, 0, 0.5);
 }
 .panel-body {
   padding: 15px;
@@ -5350,6 +5407,9 @@ a.list-group-item-danger.active:focus {
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05) 3px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05) 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05) 3px 5px rgba(0, 0, 0, 0.5);
 }
 .well blockquote {
   border-color: #ddd;
@@ -5432,6 +5492,9 @@ button.close {
   border-radius: 6px;
   -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5) 3px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5) 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5) 3px 5px rgba(0, 0, 0, 0.5);
   background-clip: padding-box;
   outline: 0;
 }
@@ -5498,6 +5561,9 @@ button.close {
   .modal-content {
     -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5) 3px 5px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5) 3px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5) 3px 5px rgba(0, 0, 0, 0.5);
   }
   .modal-sm {
     width: 300px;
@@ -5622,6 +5688,9 @@ button.close {
   border-radius: 6px;
   -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2) 3px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2) 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2) 3px 5px rgba(0, 0, 0, 0.5);
   white-space: normal;
 }
 .popover.top {
@@ -6216,55 +6285,108 @@ body {
   background-image: linear-gradient(to right, #993399 0%, #683090 100%);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff993399', endColorstr='#ff683090', GradientType=1);
-  padding-bottom: 20px;
+  padding: 1px 0 20px;
 }
 header {
   background-color: white;
-  margin-top: 10px;
-  padding: 20px 15px 30px;
+  background-image: -webkit-linear-gradient(left, #993399 0%, #683090 100%);
+  background-image: -o-linear-gradient(left, #993399 0%, #683090 100%);
+  background-image: linear-gradient(to right, #993399 0%, #683090 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff993399', endColorstr='#ff683090', GradientType=1);
+  margin: -1px 0 0 0;
+  padding: 10px 0 0;
+  width: 100%;
+  z-index: 100;
+}
+header .inset {
+  background-color: white;
 }
 header .container {
   position: relative;
+  padding: 20px 30px;
 }
 header .container .icon-logo {
   display: block;
   background-image: url(../images/sprite.png);
-  background-position: 0px -411px;
+  background-position: 0px -501px;
   width: 116px;
   height: 58px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   header .container .icon-logo {
     background-image: url(../images/sprite-2x.png);
-    background-position: 0px -822px;
+    background-position: 0px -1002px;
     width: 232px;
     height: 116px;
-    background-position: 0px -411px;
+    background-position: 0px -501px;
     height: 58px;
     width: 116px;
-    background-size: 486px 1940px;
+    background-size: 486px 2030px;
   }
 }
-header .container .primary-nav ul {
-  margin: 20px 0 0;
-  padding: 0;
-  list-style-type: none;
+header .container .primary-nav {
+  position: absolute;
+  right: 15px;
+  top: 60px;
+  margin: 0;
 }
-header .container .primary-nav ul li {
-  display: inline-block;
-  margin-right: 10px;
-}
-header .container .primary-nav ul li a {
+header .container .primary-nav a {
   color: #683090;
   font-size: 24px;
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 1px;
+  text-decoration: none;
+}
+header .container .primary-nav a:focus,
+header .container .primary-nav a:hover,
+header .container .primary-nav a:active {
+  color: #993399;
+}
+header .container .primary-nav ul {
+  padding: 0;
+  margin: 0;
+}
+header .container .primary-nav ul li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+header .container .primary-nav ul li:focus ul,
+header .container .primary-nav ul li:hover ul,
+header .container .primary-nav ul li:active ul {
+  display: block;
+}
+header .container .primary-nav ul .menu {
+  display: block;
+  line-height: 1;
+  cursor: pointer;
+  padding-bottom: 8px;
+}
+header .container .primary-nav ul ul {
+  display: none;
+  position: absolute;
+  right: 0px;
+  margin: 0;
+  background-color: white;
+  border-top: 1px solid #ccc;
+}
+header .container .primary-nav ul ul li {
+  padding: 8px;
+  margin: 0;
+  display: block;
+  float: none;
+  border-bottom: 1px solid #ccc;
+  text-align: right;
+}
+header .container .primary-nav ul ul li a {
+  line-height: 1.2;
 }
 header .container .social-nav {
   position: absolute;
-  top: 0;
-  right: 5px;
+  top: 20px;
+  right: 15px;
 }
 header .container .social-nav ul {
   maring: 0;
@@ -6272,7 +6394,7 @@ header .container .social-nav ul {
 }
 header .container .social-nav ul li {
   display: inline-block;
-  margin-left: 12px;
+  margin-left: 6px;
 }
 header .container .social-nav ul li a {
   display: block;
@@ -6280,111 +6402,263 @@ header .container .social-nav ul li a {
 }
 header .container .social-nav ul li .facebook {
   background-image: url(../images/sprite.png);
-  background-position: 0px -181px;
-  width: 40px;
-  height: 40px;
+  background-position: 0px -106px;
+  width: 28px;
+  height: 28px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   header .container .social-nav ul li .facebook {
     background-image: url(../images/sprite-2x.png);
-    background-position: 0px -362px;
-    width: 80px;
-    height: 80px;
-    background-position: 0px -181px;
-    height: 40px;
-    width: 40px;
-    background-size: 486px 1940px;
+    background-position: 0px -212px;
+    width: 56px;
+    height: 56px;
+    background-position: 0px -106px;
+    height: 28px;
+    width: 28px;
+    background-size: 486px 2030px;
   }
 }
 header .container .social-nav ul li .twitter {
   background-image: url(../images/sprite.png);
-  background-position: 0px -265px;
-  width: 40px;
-  height: 40px;
+  background-position: 0px -76px;
+  width: 28px;
+  height: 28px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   header .container .social-nav ul li .twitter {
     background-image: url(../images/sprite-2x.png);
-    background-position: 0px -530px;
-    width: 80px;
-    height: 80px;
-    background-position: 0px -265px;
-    height: 40px;
-    width: 40px;
-    background-size: 486px 1940px;
+    background-position: 0px -152px;
+    width: 56px;
+    height: 56px;
+    background-position: 0px -76px;
+    height: 28px;
+    width: 28px;
+    background-size: 486px 2030px;
   }
 }
 header .container .social-nav ul li .instagram {
   background-image: url(../images/sprite.png);
-  background-position: 0px -223px;
-  width: 40px;
-  height: 40px;
+  background-position: 0px -136px;
+  width: 28px;
+  height: 28px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   header .container .social-nav ul li .instagram {
     background-image: url(../images/sprite-2x.png);
-    background-position: 0px -446px;
-    width: 80px;
-    height: 80px;
-    background-position: 0px -223px;
-    height: 40px;
-    width: 40px;
-    background-size: 486px 1940px;
+    background-position: 0px -272px;
+    width: 56px;
+    height: 56px;
+    background-position: 0px -136px;
+    height: 28px;
+    width: 28px;
+    background-size: 486px 2030px;
   }
 }
-@media (min-width: 768px) {
+header.affix .inset {
+  border-bottom: 1px solid #ccc;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+header.affix .container .icon-logo {
+  display: inline-block;
+}
+@media (min-width: 992px) {
   header .container .icon-logo {
     background-image: url(../images/sprite.png);
-    background-position: 0px -1235px;
+    background-position: 0px -1325px;
     width: 249px;
     height: 176px;
+  }
+  header .container .primary-nav {
+    position: relative;
+    top: auto;
+    right: auto;
+    float: right;
+    margin: -73px 0 0 0;
+  }
+  header .container .primary-nav ul .menu {
+    display: none;
+  }
+  header .container .primary-nav ul ul {
+    display: block;
+    position: relative;
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+  header .container .primary-nav ul ul li {
+    display: inline-block;
+    margin-right: 10px;
+    border: none;
+    padding: 0;
+    margin: 0 0 0 21px;
   }
   header .container .social-nav {
     right: 27px;
   }
+  header .container .social-nav ul li {
+    margin-left: 12px;
+  }
+  header .container .social-nav ul li .facebook {
+    background-image: url(../images/sprite.png);
+    background-position: 0px -271px;
+    width: 40px;
+    height: 40px;
+  }
+  header .container .social-nav ul li .twitter {
+    background-image: url(../images/sprite.png);
+    background-position: 0px -313px;
+    width: 40px;
+    height: 40px;
+  }
+  header .container .social-nav ul li .instagram {
+    background-image: url(../images/sprite.png);
+    background-position: 0px -355px;
+    width: 40px;
+    height: 40px;
+  }
+  header.affix {
+    height: 75px;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
+  header.affix .inset {
+    height: 65px;
+  }
+  header.affix .container {
+    height: 21px;
+    padding: 0;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  header.affix .container .icon-logo {
+    display: inline-block;
+    background-image: url(../images/sprite.png);
+    background-position: 0px -53px;
+    width: 486px;
+    height: 21px;
+  }
+  header.affix .container .primary-nav {
+    position: absolute;
+    right: 200px;
+    top: 0;
+    margin: 0;
+  }
+  header.affix .container .primary-nav ul li:focus ul,
+  header.affix .container .primary-nav ul li:hover ul,
+  header.affix .container .primary-nav ul li:active ul {
+    display: block;
+  }
+  header.affix .container .primary-nav .menu {
+    display: block;
+    line-height: 1;
+    cursor: pointer;
+    padding-bottom: 8px;
+  }
+  header.affix .container .primary-nav ul ul {
+    display: none;
+    position: absolute;
+    right: 0px;
+    margin: 0;
+    background-color: white;
+    border-top: 1px solid #ccc;
+  }
+  header.affix .container .primary-nav ul ul li {
+    padding: 8px;
+    margin: 0;
+    display: block;
+    float: none;
+    border-bottom: 1px solid #ccc;
+    text-align: right;
+  }
+  header.affix .container .primary-nav ul ul li a {
+    line-height: 1.2;
+  }
+  header.affix .container .social-nav {
+    top: -11px;
+  }
 }
-@media (min-width: 768px) and only screen and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 768px) and screen and (min-device-pixel-ratio: 1.5) {
+@media (min-width: 992px) and only screen and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 992px) and screen and (min-device-pixel-ratio: 1.5) {
   header .container .icon-logo {
     background-image: url(../images/sprite-2x.png);
-    background-position: 0px -2469px;
+    background-position: 0px -2649px;
     width: 498px;
     height: 353px;
-    background-position: 0px -1235px;
+    background-position: 0px -1325px;
     height: 176px;
     width: 249px;
-    background-size: 486px 1940px;
+    background-size: 486px 2030px;
   }
 }
-@media (min-width: 992px) {
-  header .container .primary-nav {
-    float: right;
-    margin: -73px 10px 0 0;
+@media (min-width: 992px) and only screen and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 992px) and screen and (min-device-pixel-ratio: 1.5) {
+  header .container .social-nav ul li .facebook {
+    background-image: url(../images/sprite-2x.png);
+    background-position: 0px -542px;
+    width: 80px;
+    height: 80px;
+    background-position: 0px -271px;
+    height: 40px;
+    width: 40px;
+    background-size: 486px 2030px;
   }
-  header .container .primary-nav ul {
-    margin: 0;
-    padding: 0;
+}
+@media (min-width: 992px) and only screen and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 992px) and screen and (min-device-pixel-ratio: 1.5) {
+  header .container .social-nav ul li .twitter {
+    background-image: url(../images/sprite-2x.png);
+    background-position: 0px -626px;
+    width: 80px;
+    height: 80px;
+    background-position: 0px -313px;
+    height: 40px;
+    width: 40px;
+    background-size: 486px 2030px;
   }
-  header .container .primary-nav ul li {
-    display: inline-block;
-    margin: 0 0 0 21px;
+}
+@media (min-width: 992px) and only screen and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 992px) and screen and (min-device-pixel-ratio: 1.5) {
+  header .container .social-nav ul li .instagram {
+    background-image: url(../images/sprite-2x.png);
+    background-position: 0px -710px;
+    width: 80px;
+    height: 80px;
+    background-position: 0px -355px;
+    height: 40px;
+    width: 40px;
+    background-size: 486px 2030px;
+  }
+}
+@media (min-width: 992px) and only screen and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 992px) and screen and (min-device-pixel-ratio: 1.5) {
+  header.affix .container .icon-logo {
+    background-image: url(../images/sprite-2x.png);
+    background-position: 0px -106px;
+    width: 972px;
+    height: 42px;
+    background-position: 0px -53px;
+    height: 21px;
+    width: 486px;
+    background-size: 486px 2030px;
   }
 }
 .lt-ie9 header .container .icon-logo {
   background-image: url(../images/sprite.png);
-  background-position: 0px -1235px;
+  background-position: 0px -1325px;
   width: 249px;
   height: 176px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   .lt-ie9 header .container .icon-logo {
     background-image: url(../images/sprite-2x.png);
-    background-position: 0px -2469px;
+    background-position: 0px -2649px;
     width: 498px;
     height: 353px;
-    background-position: 0px -1235px;
+    background-position: 0px -1325px;
     height: 176px;
     width: 249px;
-    background-size: 486px 1940px;
+    background-size: 486px 2030px;
   }
 }
 .hero {
@@ -6435,7 +6709,7 @@ header .container .social-nav ul li .instagram {
   display: block;
   text-indent: -10000px;
   background-image: url(../images/sprite.png);
-  background-position: 0px -307px;
+  background-position: 0px -397px;
   width: 266px;
   height: 50px;
   margin-top: 31px;
@@ -6443,13 +6717,13 @@ header .container .social-nav ul li .instagram {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   .hero .right a {
     background-image: url(../images/sprite-2x.png);
-    background-position: 0px -614px;
+    background-position: 0px -794px;
     width: 532px;
     height: 100px;
-    background-position: 0px -307px;
+    background-position: 0px -397px;
     height: 50px;
     width: 266px;
-    background-size: 486px 1940px;
+    background-size: 486px 2030px;
   }
 }
 @media (min-width: 768px) {
@@ -6463,6 +6737,11 @@ header .container .social-nav ul li .instagram {
 @media (min-width: 992px) {
   .hero .right {
     margin-top: 47px;
+  }
+}
+@media (min-width: 1200px) {
+  .hero .left .count {
+    font-size: 270px;
   }
 }
 .section {
@@ -6533,74 +6812,74 @@ header .container .social-nav ul li .instagram {
 }
 .section.spread-the-word .container .content .social-share div h2 .icon.video {
   background-image: url(../images/sprite.png);
-  background-position: 0px -545px;
+  background-position: 0px -797px;
   width: 79px;
   height: 79px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   .section.spread-the-word .container .content .social-share div h2 .icon.video {
     background-image: url(../images/sprite-2x.png);
-    background-position: 0px -1090px;
+    background-position: 0px -1594px;
     width: 158px;
     height: 158px;
-    background-position: 0px -545px;
+    background-position: 0px -797px;
     height: 79px;
     width: 79px;
-    background-size: 486px 1940px;
+    background-size: 486px 2030px;
   }
 }
 .section.spread-the-word .container .content .social-share div h2 .icon.twitter {
   background-image: url(../images/sprite.png);
-  background-position: 0px -471px;
+  background-position: 0px -561px;
   width: 86px;
   height: 72px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   .section.spread-the-word .container .content .social-share div h2 .icon.twitter {
     background-image: url(../images/sprite-2x.png);
-    background-position: 0px -942px;
+    background-position: 0px -1122px;
     width: 172px;
     height: 144px;
-    background-position: 0px -471px;
+    background-position: 0px -561px;
     height: 72px;
     width: 86px;
-    background-size: 486px 1940px;
+    background-size: 486px 2030px;
   }
 }
 .section.spread-the-word .container .content .social-share div h2 .icon.facebook {
   background-image: url(../images/sprite.png);
-  background-position: 0px -707px;
+  background-position: 0px -635px;
   width: 79px;
   height: 79px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   .section.spread-the-word .container .content .social-share div h2 .icon.facebook {
     background-image: url(../images/sprite-2x.png);
-    background-position: 0px -1414px;
+    background-position: 0px -1270px;
     width: 158px;
     height: 158px;
-    background-position: 0px -707px;
+    background-position: 0px -635px;
     height: 79px;
     width: 79px;
-    background-size: 486px 1940px;
+    background-size: 486px 2030px;
   }
 }
 .section.spread-the-word .container .content .social-share div h2 .icon.user {
   background-image: url(../images/sprite.png);
-  background-position: 0px -626px;
+  background-position: 0px -716px;
   width: 79px;
   height: 79px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   .section.spread-the-word .container .content .social-share div h2 .icon.user {
     background-image: url(../images/sprite-2x.png);
-    background-position: 0px -1252px;
+    background-position: 0px -1432px;
     width: 158px;
     height: 158px;
-    background-position: 0px -626px;
+    background-position: 0px -716px;
     height: 79px;
     width: 79px;
-    background-size: 486px 1940px;
+    background-size: 486px 2030px;
   }
 }
 .section.spread-the-word .container .content .social-share div p {
@@ -6635,76 +6914,76 @@ header .container .social-nav ul li .instagram {
 }
 .section .thing .container .content .icon.circle {
   background-image: url(../images/sprite.png);
-  background-position: 0px -1413px;
+  background-position: 0px -1503px;
   width: 208px;
   height: 208px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   .section .thing .container .content .icon.circle {
     background-image: url(../images/sprite-2x.png);
-    background-position: 0px -2826px;
+    background-position: 0px -3006px;
     width: 416px;
     height: 416px;
-    background-position: 0px -1413px;
+    background-position: 0px -1503px;
     height: 208px;
     width: 208px;
-    background-size: 486px 1940px;
+    background-size: 486px 2030px;
   }
 }
 .section .thing .container .content .icon.eighty-percent {
   background-image: url(../images/sprite.png);
-  background-position: 0px -788px;
+  background-position: 0px -878px;
   width: 325px;
   height: 135px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   .section .thing .container .content .icon.eighty-percent {
     background-image: url(../images/sprite-2x.png);
-    background-position: 0px -1576px;
+    background-position: 0px -1756px;
     width: 650px;
     height: 270px;
-    background-position: 0px -788px;
+    background-position: 0px -878px;
     height: 135px;
     width: 325px;
-    background-size: 486px 1940px;
+    background-size: 486px 2030px;
   }
 }
 .section .thing .container .content .icon.diagram {
   margin-top: 0px;
   margin-bottom: 0px;
   background-image: url(../images/sprite.png);
-  background-position: 0px -1623px;
+  background-position: 0px -1713px;
   width: 214px;
   height: 317px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   .section .thing .container .content .icon.diagram {
     background-image: url(../images/sprite-2x.png);
-    background-position: 0px -3246px;
+    background-position: 0px -3426px;
     width: 428px;
     height: 634px;
-    background-position: 0px -1623px;
+    background-position: 0px -1713px;
     height: 317px;
     width: 214px;
-    background-size: 486px 1940px;
+    background-size: 486px 2030px;
   }
 }
 .section .thing .container .content .icon.ten-x {
   background-image: url(../images/sprite.png);
-  background-position: 0px -925px;
+  background-position: 0px -1015px;
   width: 311px;
   height: 135px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   .section .thing .container .content .icon.ten-x {
     background-image: url(../images/sprite-2x.png);
-    background-position: 0px -1850px;
+    background-position: 0px -2030px;
     width: 622px;
     height: 270px;
-    background-position: 0px -925px;
+    background-position: 0px -1015px;
     height: 135px;
     width: 311px;
-    background-size: 486px 1940px;
+    background-size: 486px 2030px;
   }
 }
 .section .thing .container .content .icon.text {
@@ -6720,21 +6999,24 @@ header .container .social-nav ul li .instagram {
 }
 .section .thing .container .content .icon.arrows {
   background-image: url(../images/sprite.png);
-  background-position: 0px -1062px;
+  background-position: 0px -1152px;
   width: 214px;
   height: 171px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   .section .thing .container .content .icon.arrows {
     background-image: url(../images/sprite-2x.png);
-    background-position: 0px -2124px;
+    background-position: 0px -2304px;
     width: 428px;
     height: 341px;
-    background-position: 0px -1062px;
+    background-position: 0px -1152px;
     height: 171px;
     width: 214px;
-    background-size: 486px 1940px;
+    background-size: 486px 2030px;
   }
+}
+.section#symptoms .container .content h1 {
+  font-size: 48px;
 }
 .section .container .content {
   padding: 40px 15px;
@@ -6760,6 +7042,7 @@ header .container .social-nav ul li .instagram {
   text-transform: uppercase;
   font-weight: 100;
   letter-spacing: 1px;
+  margin-top: 45px;
 }
 .section .container .content h1 strong {
   font-weight: 700;
@@ -6816,56 +7099,56 @@ header .container .social-nav ul li .instagram {
 }
 .section .container .content .share-this li .facebook {
   background-image: url(../images/sprite.png);
-  background-position: 0px -111px;
+  background-position: 0px -166px;
   width: 33px;
   height: 33px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   .section .container .content .share-this li .facebook {
     background-image: url(../images/sprite-2x.png);
-    background-position: 0px -222px;
+    background-position: 0px -332px;
     width: 66px;
     height: 66px;
-    background-position: 0px -111px;
+    background-position: 0px -166px;
     height: 33px;
     width: 33px;
-    background-size: 486px 1940px;
+    background-size: 486px 2030px;
   }
 }
 .section .container .content .share-this li .twitter {
   background-image: url(../images/sprite.png);
-  background-position: 0px -146px;
+  background-position: 0px -236px;
   width: 33px;
   height: 33px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   .section .container .content .share-this li .twitter {
     background-image: url(../images/sprite-2x.png);
-    background-position: 0px -292px;
+    background-position: 0px -472px;
     width: 66px;
     height: 66px;
-    background-position: 0px -146px;
+    background-position: 0px -236px;
     height: 33px;
     width: 33px;
-    background-size: 486px 1940px;
+    background-size: 486px 2030px;
   }
 }
 .section .container .content .share-this li .instagram {
   background-image: url(../images/sprite.png);
-  background-position: 0px -76px;
+  background-position: 0px -201px;
   width: 33px;
   height: 33px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   .section .container .content .share-this li .instagram {
     background-image: url(../images/sprite-2x.png);
-    background-position: 0px -152px;
+    background-position: 0px -402px;
     width: 66px;
     height: 66px;
-    background-position: 0px -76px;
+    background-position: 0px -201px;
     height: 33px;
     width: 33px;
-    background-size: 486px 1940px;
+    background-size: 486px 2030px;
   }
 }
 .section .container .content .partners-list ul {
@@ -6891,7 +7174,7 @@ header .container .social-nav ul li .instagram {
   display: block;
   float: left;
   background-image: url(../images/sprite.png);
-  background-position: 0px -359px;
+  background-position: 0px -449px;
   width: 32px;
   height: 50px;
   text-indent: -10000px;
@@ -6900,13 +7183,13 @@ header .container .social-nav ul li .instagram {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
   .section .container .content .partners-list ul li .icon-map {
     background-image: url(../images/sprite-2x.png);
-    background-position: 0px -718px;
+    background-position: 0px -898px;
     width: 64px;
     height: 100px;
-    background-position: 0px -359px;
+    background-position: 0px -449px;
     height: 50px;
     width: 32px;
-    background-size: 486px 1940px;
+    background-size: 486px 2030px;
   }
 }
 .section .container .content .supporters-list {
@@ -6970,7 +7253,7 @@ header .container .social-nav ul li .instagram {
     background-position: 0px -13px;
     height: 16px;
     width: 11px;
-    background-size: 486px 1940px;
+    background-size: 486px 2030px;
   }
 }
 .section .container .content .supporters-list li a .icon.arrow-down {
@@ -6988,7 +7271,7 @@ header .container .social-nav ul li .instagram {
     background-position: 0px 0px;
     height: 11px;
     width: 16px;
-    background-size: 486px 1940px;
+    background-size: 486px 2030px;
   }
 }
 .section .container .content .supporters-list li ul {
@@ -7050,7 +7333,7 @@ header .container .social-nav ul li .instagram {
     background-position: 0px -31px;
     height: 20px;
     width: 14px;
-    background-size: 486px 1940px;
+    background-size: 486px 2030px;
   }
 }
 #map_canvas {
@@ -7064,24 +7347,8 @@ header .container .social-nav ul li .instagram {
   .section .thing .container .content p {
     font-size: 26px;
   }
-  .section .container .content {
-    padding: 40px 30px;
-  }
-  .section .container .content:before,
-  .section .container .content:after {
-    content: " ";
-    display: table;
-  }
-  .section .container .content:after {
-    clear: both;
-  }
-  .section .container .content:before,
-  .section .container .content:after {
-    content: " ";
-    display: table;
-  }
-  .section .container .content:after {
-    clear: both;
+  .section#symptoms .container .content h1 {
+    font-size: 65px;
   }
   #map_canvas {
     height: 515px;

@@ -53,5 +53,11 @@
 		}).on('hide.bs.collapse', function () {
 			$(this).siblings('a').find('span').removeClass('arrow-down').addClass('arrow-right');
 		});
+
+		$('body').on('affix.bs.affix', function() {
+			$(this).find('#about').css({'margin-top': 220});
+		}).on('affix-top.bs.affix', function() {
+			$(this).find('#about').css({'margin-top': ''});
+		});
 	});
 })()

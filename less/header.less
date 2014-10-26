@@ -1,31 +1,89 @@
 header {
 	background-color: white;
-	margin-top: 10px;
-	padding: 20px 15px 30px;
+	#gradient > .horizontal(#939; #683090);
+	margin: -1px 0 0 0;
+	padding: 10px 0 0;
+	width: 100%;
+	z-index: 100;
+
+	.inset {
+		background-color: white;
+	}
 
 	.container {
 		position: relative;
+		padding:  20px 30px;
+
 		.icon-logo {
 			display: block;
 			.sprite-2x(@mobile-logo-2x, @mobile-logo);
 		}
 
 		.primary-nav {
+			position: absolute;
+			right: 15px;
+			top: 60px;
+			margin: 0;
+
+			a {
+				color: @brand-secondary;
+				font-size: @font-size-h3;
+				font-weight: 300;
+				text-transform: uppercase;
+				letter-spacing: 1px;
+				text-decoration: none;
+
+				&:focus,
+				&:hover,
+				&:active {
+					color: @brand-primary;
+				}
+			}
+
 			ul {
-				margin: 20px 0 0;
 				padding: 0;
-				list-style-type: none;
+				margin: 0;
 
 				li {
-					display: inline-block;
-					margin-right: 10px;
+					margin: 0;
+					padding: 0;
+					list-style-type: none;
 
-					a {
-						color: @brand-secondary;
-						font-size: @font-size-h3;
-						font-weight: 300;
-						text-transform: uppercase;
-						letter-spacing: 1px;
+					&:focus  ul,
+					&:hover  ul,
+					&:active  ul {
+						display: block;
+					}
+				}
+
+				.menu {
+					display: block;
+					line-height: 1;
+					cursor: pointer;
+					padding-bottom: 8px;
+				}
+
+				ul {
+					display: none;
+					position: absolute;
+					right: 0px;
+
+					margin: 0;
+
+					background-color: white;
+					border-top: 1px solid #ccc;
+
+					li {
+						padding: 8px;
+						margin: 0;
+						display: block;
+						float: none;
+						border-bottom: 1px solid #ccc;
+						text-align: right;
+
+						a {
+							line-height: 1.2;
+						}
 					}
 				}
 			}
@@ -33,8 +91,8 @@ header {
 
 		.social-nav {
 			position: absolute;
-			top: 0;
-			right: 5px;
+			top: 20px;
+			right: 15px;
 
 			ul {
 				maring: 0;
@@ -42,7 +100,7 @@ header {
 
 				li {
 					display: inline-block;
-					margin-left: 12px;
+					margin-left: 6px;
 
 					a {
 						display: block;
@@ -50,50 +108,167 @@ header {
 					}
 
 					.facebook {
-						.sprite-2x(@facebook-medium-2x, @facebook-medium);
+						.sprite-2x(@facebook-xs-2x, @facebook-xs);
 					}
 
 					.twitter {
-						.sprite-2x(@twitter-medium-2x, @twitter-medium);
+						.sprite-2x(@twitter-xs-2x, @twitter-xs);
 					}
 
 					.instagram {
-						.sprite-2x(@instagram-medium-2x, @instagram-medium);
+						.sprite-2x(@instagram-xs-2x, @instagram-xs);
 					}
 				}
+			}
+		}
+	}
+
+	&.affix {
+		.inset {
+			border-bottom: 1px solid #ccc;
+			.box-shadow(0, 2px, 4px, 0.3);
+		}
+
+		.container {
+			.icon-logo {
+				display: inline-block;
 			}
 		}
 	}
 }
 
 @media (min-width: @screen-sm-min) {
-	header {
-		.container {
-			.icon-logo {
-				.sprite-2x(@logo-2x, @logo);
-			}
-
-			.social-nav {
-				right: 27px;
-			}
-		}
-	}
 }
 
 @media (min-width: @screen-md-min) {
 	header {
 		.container {
+
+			.icon-logo {
+				.sprite-2x(@logo-2x, @logo);
+			}
+
 			.primary-nav {
+				position: relative;
+				top: auto;
+				right: auto;
 				float: right;
-				margin: -73px 10px 0 0;
+				margin: -73px 0 0 0;
 
 				ul {
-					margin: 0;
-					padding: 0;
-					li {
-						display: inline-block;
-						margin: 0 0 0 21px;
+					.menu {
+						display: none;
 					}
+
+					ul {
+						display: block;
+						position: relative;
+
+						border: none;
+						margin: 0;
+						padding: 0;
+
+						li {
+							display: inline-block;
+							margin-right: 10px;
+							border: none;
+							padding: 0;
+							margin: 0 0 0 21px;
+						}
+					}
+				}
+			}
+
+			.social-nav {
+				right: 27px;
+
+				ul {
+					li {
+						margin-left: 12px;
+
+						.facebook {
+							.sprite-2x(@facebook-medium-2x, @facebook-medium);
+						}
+
+						.twitter {
+							.sprite-2x(@twitter-medium-2x, @twitter-medium);
+						}
+
+						.instagram {
+							.sprite-2x(@instagram-medium-2x, @instagram-medium);
+						}
+					}
+				}
+			}
+		}
+
+		&.affix {
+			height: 75px;
+			-webkit-transform-style: preserve-3d;
+			-moz-transform-style: preserve-3d;
+			transform-style: preserve-3d;
+
+			.inset {
+				height: 65px;
+			}
+
+			.container {
+				height: 21px;
+				padding: 0;
+				.vertical-align();
+
+				.icon-logo {
+					display: inline-block;
+					.sprite-2x(@collapsed-logo-2x, @collapsed-logo);
+				}
+
+				.primary-nav {
+					position: absolute;
+					right: 200px;
+					top: 0;
+					margin: 0;
+
+					ul li {
+						&:focus  ul,
+						&:hover  ul,
+						&:active  ul {
+							display: block;
+						}
+					}
+
+					.menu {
+						display: block;
+						line-height: 1;
+						cursor: pointer;
+						padding-bottom: 8px;
+					}
+
+					ul ul {
+						display: none;
+						position: absolute;
+						right: 0px;
+						margin: 0;
+
+						background-color: white;
+						border-top: 1px solid #ccc;
+
+						li {
+							padding: 8px;
+							margin: 0;
+							display: block;
+							float: none;
+							border-bottom: 1px solid #ccc;
+							text-align: right;
+
+							a {
+								line-height: 1.2;
+							}
+						}
+					}
+				}
+
+				.social-nav {
+					top: -11px;
 				}
 			}
 		}
