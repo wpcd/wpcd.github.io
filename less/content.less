@@ -211,14 +211,32 @@
 
 					.facebook {
 						.sprite-2x(@facebook-small-2x, @facebook-small);
+
+						&:focus,
+						&:hover,
+						&:active {
+							.sprite-2x(@facebook-small-solid-2x, @facebook-small-solid);
+						}
 					}
 
 					.twitter {
 						.sprite-2x(@twitter-small-2x, @twitter-small);
+
+						&:focus,
+						&:hover,
+						&:active {
+							.sprite-2x(@twitter-small-solid-2x, @twitter-small-solid);
+						}
 					}
 
 					.instagram {
 						.sprite-2x(@instagram-small-2x, @instagram-small);
+
+						&:focus,
+						&:hover,
+						&:active {
+							.sprite-2x(@instagram-small-solid-2x, @instagram-small-solid);
+						}
 					}
 
 				}
@@ -318,6 +336,12 @@
 								text-transform: none;
 								text-decoration: underline;
 								line-height: 1.2;
+
+								&:focus,
+								&:hover,
+								&:active {
+									color: @brand-secondary;
+								}
 							}
 						}
 					}
@@ -337,12 +361,18 @@
 				.border-radius(50px);
 				text-decoration: none;
 
+				&:focus,
+				&:hover,
+				&:active {
+					background-image: none;
+					background-color: @brand-secondary;
+				}
+
 				.icon.arrow-right {
 					display: block;
 					float: right;
 					margin: 7px 0 0 10px;
 					.sprite-2x(@arrow-right-2x, @arrow-right);
-
 				}
 			}
 		}
