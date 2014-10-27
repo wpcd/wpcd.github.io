@@ -6353,7 +6353,7 @@ header .container .primary-nav ul li {
   padding: 0;
   list-style-type: none;
 }
-header .container .primary-nav ul li:hover ul {
+header .container .primary-nav ul li.open ul {
   display: block;
 }
 header .container .primary-nav ul .menu {
@@ -6369,6 +6369,7 @@ header .container .primary-nav ul ul {
   margin: 0;
   background-color: white;
   border-top: 1px solid #ccc;
+  z-index: 200;
 }
 header .container .primary-nav ul ul li {
   padding: 8px;
