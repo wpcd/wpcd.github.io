@@ -7573,9 +7573,6 @@ header.affix .container .icon-logo {
 .header-affixed #about {
   margin-top: 110px;
 }
-.modal.in .modal-dialog {
-  margin-top: 100px;
-}
 @media (min-width: 768px) {
   .section#supporters h1 strong {
     font-size: 65px;
