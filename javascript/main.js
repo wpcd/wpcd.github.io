@@ -66,9 +66,9 @@
 		});
 
 		$('body').on('affix.bs.affix', function() {
-			$(this).addClass('fixed-header');
+			$(this).addClass('header-affixed');
 		}).on('affix-top.bs.affix', function() {
-			$(this).removeClass('fixed-header');
+			$(this).removeClass('header-affixed');
 		});
 
 		$('header').affix({

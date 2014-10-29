@@ -7570,8 +7570,11 @@ header.affix .container .icon-logo {
   width: 100%;
   height: 415px;
 }
-.fixed-header #about {
+.header-affixed #about {
   margin-top: 110px;
+}
+.modal.in .modal-dialog {
+  margin-top: 100px;
 }
 @media (min-width: 768px) {
   .section#supporters h1 strong {
@@ -7620,7 +7623,7 @@ header.affix .container .icon-logo {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
   }
-  .fixed-header #about {
+  .header-affixed #about {
     margin-top: 220px;
   }
 }
