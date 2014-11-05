@@ -1,4 +1,5 @@
 var addthis_share = {
+	url: "http://worldpancreaticcancer.org",
 	templates: {
 		twitter: 'Nov. 13 is the first-ever World Pancreatic Cancer Day. Join me in raising awareness around the world. {{url}} #WPCD2014'
 	}
