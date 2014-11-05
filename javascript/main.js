@@ -1,3 +1,9 @@
+var addthis_share = {
+	templates: {
+		twitter: 'Nov. 13 is the first-ever World Pancreatic Cancer Day. Join me in raising awareness around the world. {{url}} #WPCD2014'
+	}
+};
+
 (function() {
 	function initialize() {
 		var mapCanvas = document.getElementById('map_canvas');
