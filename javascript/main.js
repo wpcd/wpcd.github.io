@@ -1,6 +1,4 @@
 var addthis_share = {
-	// url: "http://www.worldpancreaticcancerday.org/",
-	// description: "Pancreatic cancer doesn’t have to remain one of the world’s deadliest cancers. Together, we can keep more people from becoming a statistic. By supporting research for early detection and innovative treatments, you can help us change the future and save the lives of millions. World Pancreatic Cancer Day is a chance for each of us to lend our voices to bring awareness to this disease. Post it, tweet it, share it, but don’t let those affected continue to go unnoticed.",
 	templates: {
 		twitter: 'Nov. 13 is the first-ever World Pancreatic Cancer Day. Join me in raising awareness around the world. {{url}} #WPCD2014'
 	}
