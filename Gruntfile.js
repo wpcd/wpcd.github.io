@@ -40,7 +40,43 @@ module.exports = function(grunt) {
 					cleancss: true
 				},
 				files: {
-					"css/main.min.css": "less/main.less"
+					"dist/css/main.css": "less/main.less"
+				}
+			}
+		},
+
+		uglify: {
+			production: {
+				files: {
+					'dist/javascript/main.js': ['javascript/main.js']
+				}
+			}
+		},
+
+		imagemin: {
+			production: {
+				options: {
+					optimizationLevel: 5
+				},
+				files: [{
+					expand: true,
+					src: ['images/*.jpg', 'images/*.png', 'images/*.gif'],
+					dest: 'dist'
+				}]
+			}
+		},
+
+		htmlmin: {
+			production: {
+				options: {
+					removeComments: true,
+					collapseWhitespace: true,
+					preserveLineBreaks: true,
+					minifyJS: true,
+					minifyCSS: true
+				},
+				files: {
+					'dist/index.html': 'index.html'
 				}
 			}
 		},
@@ -48,19 +84,13 @@ module.exports = function(grunt) {
 		copy: {
 			production: {
 				files: [
-					{ expand: true, src: 'index.html', dest: 'dist/' },
-					{ expand: true, src: ['css/*.min.css'], dest: 'dist/' }
-				],
-				options: {
-					process: function(content, srcpath) {
-						if (scrpath === "index.html") {
-							console.log(content.replace(/main.css/, "main.min.css"));
-						}
-					}
-				}
+					{ expand: true, src: ['css/*.min.css'], dest: 'dist/' },
+					{ expand: true, src: [ 'javascript/**/*.min.js'], dest: 'dist/' },
+					{ expand: true, src: ['images/*.zip'], dest: 'dist/', filter: 'isFile' }
+				]
 			}
 		}
 	});
 
-	grunt.registerTask('build', ['sprite', 'less:production', 'copy:production'])
+	grunt.registerTask('build', ['sprite', 'less:production', 'uglify:production', 'htmlmin:production', 'imagemin:production', 'copy:production'])
 };
