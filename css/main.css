@@ -7416,7 +7416,7 @@ header.affix .container .icon-logo {
 .section .container .content .pill-button {
   display: block;
   float: left;
-  font-size: 20px;
+  font-size: 21px;
   text-transform: uppercase;
   color: white;
   background-image: -webkit-linear-gradient(top, #683090 0%, #993399 100%);
@@ -7426,7 +7426,7 @@ header.affix .container .icon-logo {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff683090', endColorstr='#ff993399', GradientType=0);
   font-weight: 700;
   letter-spacing: 3px;
-  padding: 6px 22px 4px;
+  padding: 6px 15px 4px;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   border-radius: 50px;
@@ -7502,6 +7502,7 @@ header.affix .container .icon-logo {
   }
   .section .container .content .pill-button {
     font-size: 26px;
+    padding: 6px 22px 4px;
   }
   .section .container .content .pill-button .icon.arrow-right {
     margin: 7px 0 0 10px;
