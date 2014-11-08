@@ -7416,7 +7416,7 @@ header.affix .container .icon-logo {
 .section .container .content .pill-button {
   display: block;
   float: left;
-  font-size: 26px;
+  font-size: 20px;
   text-transform: uppercase;
   color: white;
   background-image: -webkit-linear-gradient(top, #683090 0%, #993399 100%);
@@ -7444,7 +7444,7 @@ header.affix .container .icon-logo {
 .section .container .content .pill-button .icon.arrow-right {
   display: block;
   float: right;
-  margin: 7px 0 0 10px;
+  margin: 3px 0 0 10px;
   background-image: url(../images/sprite.png);
   background-position: 0px -31px;
   width: 14px;
@@ -7499,6 +7499,12 @@ header.affix .container .icon-logo {
   }
   .section .container .content .symptoms-col {
     margin-right: 18px;
+  }
+  .section .container .content .pill-button {
+    font-size: 26px;
+  }
+  .section .container .content .pill-button .icon.arrow-right {
+    margin: 7px 0 0 10px;
   }
   .csstransforms .section .thing {
     height: 315px;
