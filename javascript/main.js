@@ -24,7 +24,7 @@ var addthis_share = {
 		};
 
 		var infoWindow = new google.maps.InfoWindow({
-			maxWidth: 300
+			maxWidth: 400
 		});
 
 		var locations = [{

@@ -40,11 +40,27 @@ module.exports = function(grunt) {
 					cleancss: true
 				},
 				files: {
-					"css/main.css": "less/main.less"
+					"css/main.min.css": "less/main.less"
+				}
+			}
+		},
+
+		copy: {
+			production: {
+				files: [
+					{ expand: true, src: 'index.html', dest: 'dist/' },
+					{ expand: true, src: ['css/*.min.css'], dest: 'dist/' }
+				],
+				options: {
+					process: function(content, srcpath) {
+						if (scrpath === "index.html") {
+							console.log(content.replace(/main.css/, "main.min.css"));
+						}
+					}
 				}
 			}
 		}
 	});
 
-	grunt.registerTask('build', ['sprite', 'less:production'])
+	grunt.registerTask('build', ['sprite', 'less:production', 'copy:production'])
 };
