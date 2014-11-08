@@ -7444,7 +7444,7 @@ header.affix .container .icon-logo {
 .section .container .content .pill-button .icon.arrow-right {
   display: block;
   float: right;
-  margin: 3px 0 0 10px;
+  margin: 3px 0 0 8px;
   background-image: url(../images/sprite.png);
   background-position: 0px -31px;
   width: 14px;
