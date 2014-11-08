@@ -86,7 +86,7 @@ module.exports = function(grunt) {
 				files: [
 					{ expand: true, src: ['css/*.min.css'], dest: 'dist/' },
 					{ expand: true, src: [ 'javascript/**/*.min.js'], dest: 'dist/' },
-					{ expand: true, src: ['images/*.zip'], dest: 'dist/', filter: 'isFile' }
+					{ expand: true, src: ['images/*.zip', 'images/sprite-2x/map-icon-2x.png'], dest: 'dist/', filter: 'isFile' }
 				]
 			}
 		}

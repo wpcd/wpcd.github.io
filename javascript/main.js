@@ -78,9 +78,9 @@ var addthis_share = {
 			lat: 40.416534,
 			lng: -3.711984
 		}, {
-			title: "Hirshberg Foundation for Pancreatic Cancer Research",
+			title: "Hirschberg Foundation for Pancreatic Cancer Research",
 			url: "http://www.pancreatic.org",
-			lat: 34.0276968,
+			lat: 38.0276968,
 			lng: -118.428548
 		}, {
 			title: "Instituto Oncoguia",
@@ -125,18 +125,18 @@ var addthis_share = {
 		}, {
 			title: "PanCAN Japan",
 			url: "http://www.pancan.jp",
-			lat: 33.901413,
-			lng: -118.387441
+			lat: 35.6971299,
+			lng: 139.7452761
 		}, {
 			title: "Pancare Foundation",
 			url: "http://www.pancare.org.au",
-			lat: -37.754114,
-			lng: 145.054747
+			lat: -34.754114,
+			lng: 146.054747
 		}, {
 			title: "Pancreatic Cancer Action",
 			url: "http://pancreaticcanceraction.org",
 			lat: 51.0779316,
-			lng: -0.7918321
+			lng: -1.7918321
 		}, {
 			title: "Pancreatic Cancer Action Network",
 			url: "http://www.pancan.org",
@@ -148,9 +148,9 @@ var addthis_share = {
 			lat: 45.352632,
 			lng: -75.646871
 		}, {
-			title: "Pancreatic Cancer Research Fund",
+			title: "Pancreatic Cancer Research Foundation",
 			url: "http://www.pcrf.org.uk/",
-			lat: 51.6329455,
+			lat: 53.6329455,
 			lng: -0.0993699
 		}, {
 			title: "Pancreatic Cancer Scotland",
