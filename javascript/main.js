@@ -51,8 +51,8 @@ var addthis_share = {
 		}, {
 			title: "Craig’s Cause Pancreatic Cancer Society",
 			url: "http://www.craigscause.ca",
-			lat: 45.945428,
-			lng: -66.640698
+			lat: 44.6557746,
+			lng: -63.6018255
 		}, {
 			title: "Europacolon and Digestive Cancers",
 			url: "http://www.europacolon.pt",
@@ -109,12 +109,12 @@ var addthis_share = {
 			lat: 55.761126,
 			lng: 37.457876
 		}, {
-			title: "National Pancreas Foundation",
+			title: "The National Pancreas Foundation",
 			url: "http://www.pancreasfoundation.org",
 			lat: 38.9844228,
 			lng: -77.0959967
 		}, {
-			title: "Natverk Mot Cancer",
+			title: "Natverket Mot Cancer",
 			url: "http://www.natverketmotcancer.se",
 			lat: 59.337239,
 			lng: 18.069483
@@ -169,12 +169,12 @@ var addthis_share = {
 			lat: 35.158907,
 			lng: 33.352743
 		}, {
-			title: "Rolfe Pancreatic Cancer Foundation",
+			title: "Michael Rolfe Pancreatic Cancer Foundation",
 			url: "http://www.rolfefoundation.org",
 			lat: 41.8826707,
 			lng: -87.6274443
 		}, {
-			title: "TEB e.V. Selbshilfe",
+			title: "TEB e.V. Selbsthilfe",
 			url: "http://www.teb-selbsthilfe.de",
 			lat: 48.89067,
 			lng: 9.195465

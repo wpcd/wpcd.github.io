@@ -291,8 +291,19 @@
 
 			.sponsor {
 				clear: both;
-				padding-top: 50px;
-				text-align: center;
+
+				.icon-clegene {
+					display: block;
+					margin: 0 auto;
+					.sprite-2x(@celgene-logo-2x, @celgene-logo);
+				}
+
+				.col-md-9 {
+					p {
+						text-align: center;
+						margin-top: 20px;
+					}
+				}
 			}
 
 			.pill-button {
@@ -420,6 +431,15 @@
 
 					.icon.arrow-right {
 						margin: 7px 0 0 10px;
+					}
+				}
+
+				.sponsor {
+					.col-md-9 {
+						p {
+							text-align: left;
+							margin-top: 55px;
+						}
 					}
 				}
 			}
